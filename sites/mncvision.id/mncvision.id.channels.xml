@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="mncvision.id">
   <channels>
-    <channel lang="en" xmltv_id="ABCAustralia.au" site_id="350">ABC Australia</channel>
+<!--     <channel lang="en" xmltv_id="ABCAustralia.au" site_id="350">ABC Australia</channel>
     <channel lang="en" xmltv_id="AlJazeeraEnglish.qa" site_id="331">Aljazeera</channel>
     <channel lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="203">Animal Planet</channel>
     <channel lang="en" xmltv_id="AnimaxAsia.sg" site_id="157">Animax Asia</channel>
@@ -45,17 +45,17 @@
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="6">HBO Signature Asia</channel>
     <channel lang="en" xmltv_id="HGTVAsia.us" site_id="245">HGTV Asia</channel>
     <channel lang="en" xmltv_id="HistoryAsia.us" site_id="206">History</channel>
-    <channel lang="en" xmltv_id="HITS.sg" site_id="160">Hits</channel>
+    <channel lang="en" xmltv_id="HITS.sg" site_id="160">Hits</channel> -->
     <channel lang="en" xmltv_id="HITSMovies.sg" site_id="11">Hits Movies</channel>
-    <channel lang="en" xmltv_id="IDXChannel.id" site_id="100">IDX Channel</channel>
+<!--     <channel lang="en" xmltv_id="IDXChannel.id" site_id="100">IDX Channel</channel>
     <channel lang="en" xmltv_id="Ie.id" site_id="96">Ie</channel>
     <channel lang="en" xmltv_id="IMC.id" site_id="14">IMC</channel>
     <channel lang="en" xmltv_id="Indosiar.id" site_id="78">Indosiar</channel>
     <channel lang="en" xmltv_id="INews.id" site_id="83">INews</channel>
     <channel lang="en" xmltv_id="JakTV.id" site_id="113">Jak TV</channel>
-    <channel lang="en" xmltv_id="KidsTV.id" site_id="46">Kids TV</channel>
+    <channel lang="en" xmltv_id="KidsTV.id" site_id="46">Kids TV</channel> -->
     <channel lang="en" xmltv_id="KIX.hk" site_id="161">Kix</channel>
-    <channel lang="en" xmltv_id="KompasTV.id" site_id="106">Kompas TV</channel>
+<!--     <channel lang="en" xmltv_id="KompasTV.id" site_id="106">Kompas TV</channel>
     <channel lang="en" xmltv_id="Life.id" site_id="91">Life</channel>
     <channel lang="en" xmltv_id="LifestyleFashion.id" site_id="90">Lifestyle &amp; Fashion</channel>
     <channel lang="en" xmltv_id="LifetimeAsia.us" site_id="167">Lifetime Asia</channel>
@@ -194,6 +194,6 @@
     <channel lang="id" xmltv_id="TVRINasional.id" site_id="118">TVRI Nasional</channel>
     <channel lang="id" xmltv_id="VisionPrime.id" site_id="94">Vision Prime</channel>
     <channel lang="id" xmltv_id="WarnerTVAsia.us" site_id="163">Warner TV</channel>
-    <channel lang="id" xmltv_id="ZeeBioskop.id" site_id="23">Zee Bioskop</channel>
+    <channel lang="id" xmltv_id="ZeeBioskop.id" site_id="23">Zee Bioskop</channel> -->
   </channels>
 </site>
