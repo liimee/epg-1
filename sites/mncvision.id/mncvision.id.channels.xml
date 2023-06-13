@@ -44,8 +44,8 @@
     <channel lang="en" xmltv_id="HBOHitsAsia.sg" site_id="10">HBO Hits</channel>
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="6">HBO Signature Asia</channel>
     <channel lang="en" xmltv_id="HGTVAsia.us" site_id="245">HGTV Asia</channel>
-    <channel lang="en" xmltv_id="HistoryAsia.us" site_id="206">History</channel>
-    <channel lang="en" xmltv_id="HITS.sg" site_id="160">Hits</channel> -->
+    <channel lang="en" xmltv_id="HistoryAsia.us" site_id="206">History</channel> -->
+    <channel lang="en" xmltv_id="HITS.sg" site_id="160">Hits</channel>
     <channel lang="en" xmltv_id="HITSMovies.sg" site_id="11">Hits Movies</channel>
 <!--     <channel lang="en" xmltv_id="IDXChannel.id" site_id="100">IDX Channel</channel>
     <channel lang="en" xmltv_id="Ie.id" site_id="96">Ie</channel>
