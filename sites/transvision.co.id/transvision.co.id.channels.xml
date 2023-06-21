@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="transvision.co.id">
   <channels>
-    <channel lang="id" xmltv_id="nsert.id" site_id="TRIS">!nsert</channel>
+    <!-- <channel lang="id" xmltv_id="nsert.id" site_id="TRIS">!nsert</channel>
     <channel lang="id" xmltv_id="ABCAustralia.au" site_id="AUSK">ABC Australia</channel>
     <channel lang="id" xmltv_id="AsianFoodNetwork.sg" site_id="AFCK">AFN HD</channel>
-    <channel lang="id" xmltv_id="AlJazeeraChannel.qa" site_id="ALZA">Al Jazeera</channel>
+    <channel lang="id" xmltv_id="AlJazeeraChannel.qa" site_id="ALZA">Al Jazeera</channel> -->
     <channel lang="id" xmltv_id="AlQuranAlKareemTV.sa" site_id="AQAK">Al Quran Al Kareem</channel>
-    <channel lang="id" xmltv_id="AnimaxAsia.sg" site_id="ANI">Animax</channel>
+<!--     <channel lang="id" xmltv_id="AnimaxAsia.sg" site_id="ANI">Animax</channel>
     <channel lang="id" xmltv_id="AniPlus.th" site_id="ANIP">AniPlus</channel>
     <channel lang="id" xmltv_id="ANTV.id" site_id="ANTV">ANTV</channel>
     <channel lang="id" xmltv_id="ArirangTV.kr" site_id="ARI">Arirang</channel>
@@ -78,6 +78,6 @@
     <channel lang="id" xmltv_id="tvOne.id" site_id="TV1">tvOne</channel>
     <channel lang="id" xmltv_id="TVRINasional.id" site_id="TVRI">TVRI</channel>
     <channel lang="id" xmltv_id="WarnerTVAsia.us" site_id="WAR">Warner TV HD</channel>
-    <channel lang="id" xmltv_id="ZeeBioskop.id" site_id="ZBIO">Zee Bioskop</channel>
+    <channel lang="id" xmltv_id="ZeeBioskop.id" site_id="ZBIO">Zee Bioskop</channel> -->
   </channels>
 </site>

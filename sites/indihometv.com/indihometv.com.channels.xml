@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="indihometv.com">
   <channels>
-    <channel lang="id" xmltv_id="ABCAustralia.au" site_id="abcaustralia">ABC Australia</channel>
+    <!-- <channel lang="id" xmltv_id="ABCAustralia.au" site_id="abcaustralia">ABC Australia</channel>
     <channel lang="id" xmltv_id="AlJazeeraChannel.qa" site_id="aljazeera">Aljazeera</channel>
     <channel lang="id" xmltv_id="AnimaxAsia.sg" site_id="animax">Animax</channel>
     <channel lang="id" xmltv_id="AniplusAsia.sg" site_id="aniplus">ANIPlus</channel>
@@ -92,9 +92,9 @@
     <channel lang="id" xmltv_id="ParamountNetworkIndonesia.id" site_id="paramount">Paramount</channel>
     <channel lang="id" xmltv_id="RajawaliTV.id" site_id="rtv">Rajawali TV</channel>
     <channel lang="id" xmltv_id="ROCKEntertainment.sg" site_id="blueant">Rock Entertainment</channel>
-    <channel lang="id" xmltv_id="ROCKExtreme.sg" site_id="blueantextreme">Rock Extreme</channel>
+    <channel lang="id" xmltv_id="ROCKExtreme.sg" site_id="blueantextreme">Rock Extreme</channel> -->
     <channel lang="id" xmltv_id="RodjaTV.id" site_id="rodjatv">Rodja TV</channel>
-    <channel lang="id" xmltv_id="RRINet.id" site_id="rrinet">RRI NET</channel>
+    <!-- <channel lang="id" xmltv_id="RRINet.id" site_id="rrinet">RRI NET</channel>
     <channel lang="id" xmltv_id="RuangTrampil.id" site_id="useeinfo">Ruang Trampil</channel>
     <channel lang="id" xmltv_id="SCTV.id" site_id="sctv">SCTV</channel>
     <channel lang="id" xmltv_id="SEAToday.id" site_id="seatoday">SEA Today</channel>
@@ -124,8 +124,8 @@
     <channel lang="id" xmltv_id="UseePrime.id" site_id="useeprime">UseePrime</channel>
     <channel lang="id" xmltv_id="WarnerTVAsia.us" site_id="warner">Warner</channel>
     <channel lang="id" xmltv_id="ZeeBioskop.id" site_id="zbioskop">ZBioskop</channel>
-    <channel lang="id" xmltv_id="ZhejiangSatelliteTVInternational.cn" site_id="zhejiang">Zhejiang</channel>
-    <!-- <channel lang="id" xmltv_id="AlQuranKareem.id" site_id="alquran">AlQuran Kareem</channel> -->
+    <channel lang="id" xmltv_id="ZhejiangSatelliteTVInternational.cn" site_id="zhejiang">Zhejiang</channel> -->
+    <channel lang="id" xmltv_id="AlQuranAlKareemTV.sa" site_id="alquran">Al Quran Al Kareem</channel>
     <!-- <channel lang="id" xmltv_id="Antara.id" site_id="antara">Antara</channel> -->
     <!-- <channel lang="id" xmltv_id="ChineseDrama.id" site_id="chinesedrama">Chinese Drama</channel> -->
     <!-- <channel lang="id" xmltv_id="DaVinciLearning.id" site_id="davinci">Da Vinci Learning</channel> -->
@@ -150,8 +150,3 @@
     <!-- <channel lang="id" xmltv_id="UtamiTV.id" site_id="utamitv">Utami TV</channel> -->
   </channels>
 </site>
-
-<!-- 
-  Get all channels from https://www.indihometv.com/tvod:
-  [...document.querySelectorAll('.channel-item')].map(el => `<channel lang="id" xmltv_id="${el.dataset.name.replaceAll(' ', '')}.id" site_id="${el.href.replace('https://www.indihometv.com/tvod/', '')}">${el.dataset.name}</channel>`).join('\n')
- -->
