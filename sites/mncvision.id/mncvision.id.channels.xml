@@ -71,11 +71,11 @@
     <channel lang="en" xmltv_id="MShopSignature.id" site_id="88">M Shop Signature</channel>
     <channel lang="en" xmltv_id="MShopSuperSale.id" site_id="79">M Shop Super Sale!</channel>
     <channel lang="en" xmltv_id="MusicTV.id" site_id="111">Music TV</channel>
-    <channel lang="en" xmltv_id="MuslimTV.id" site_id="92">Muslim TV</channel>
+    <channel lang="en" xmltv_id="MuslimTV.id" site_id="92">Muslim TV</channel>-->
     <channel lang="en" xmltv_id="NationalGeographicIndonesia.id" site_id="202">National
         Geographic</channel>
     <channel lang="en" xmltv_id="NationalGeographicWildIndonesia.id" site_id="204">National Geographic
-        Wild</channel>-->
+        Wild</channel>
         <channel lang="en" xmltv_id="NET.id" site_id="116">NET</channel>
         <!--<channel
         lang="en" xmltv_id="NHKWorldJapan.jp" site_id="355">NHK World Japan</channel>
@@ -145,12 +145,12 @@
     <channel lang="id" xmltv_id="France24English.fr" site_id="352">France 24</channel>
     <channel lang="id" xmltv_id="Galaxy.id" site_id="13">Galaxy</channel>
     <channel lang="id" xmltv_id="GalaxyPremium.id" site_id="12">Galaxy Premium</channel>
-    <channel lang="id" xmltv_id="GTV.id" site_id="81">GTV</channel>
+    <channel lang="id" xmltv_id="GTV.id" site_id="81">GTV</channel>-->
     <channel lang="id" xmltv_id="HBOAsia.sg" site_id="7">HBO</channel>
     <channel lang="id" xmltv_id="HBOFamilyAsia.sg" site_id="9">HBO Family</channel>
     <channel lang="id" xmltv_id="HBOHitsAsia.sg" site_id="10">HBO Hits</channel>
     <channel lang="id" xmltv_id="HBOSignatureAsia.sg" site_id="6">HBO Signature</channel>
-    <channel lang="id" xmltv_id="HGTVAsia.us" site_id="245">HGTV</channel>
+   <!-- <channel lang="id" xmltv_id="HGTVAsia.us" site_id="245">HGTV</channel>
     <channel lang="id" xmltv_id="HistoryAsia.us" site_id="206">History</channel>
     <channel lang="id" xmltv_id="HITS.sg" site_id="160">Hits</channel>
     <channel lang="id" xmltv_id="HITSMovies.sg" site_id="11">Hits Movies</channel>
