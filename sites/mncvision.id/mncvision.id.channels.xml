@@ -197,10 +197,10 @@
     <channel lang="id" xmltv_id="SPOTV2.kr" site_id="308">SPOTV 2</channel>
     <channel lang="id" xmltv_id="TawafTV.id" site_id="105">Tawaf TV</channel>
     <channel lang="id" xmltv_id="Thrill.hk" site_id="19">Thrill</channel>
-    <channel lang="id" xmltv_id="TLCSoutheastAsia.sg" site_id="248">TLC</channel>
+    <channel lang="id" xmltv_id="TLCSoutheastAsia.sg" site_id="248">TLC</channel>-->
     <channel lang="id" xmltv_id="Trans7.id" site_id="110">Trans 7</channel>
     <channel lang="id" xmltv_id="TransTV.id" site_id="87">Trans TV</channel>
-    <channel lang="id" xmltv_id="tvNAsia.hk" site_id="158">tvN</channel>
+    <!--<channel lang="id" xmltv_id="tvNAsia.hk" site_id="158">tvN</channel>
     <channel lang="id" xmltv_id="tvNMoviesAsia.hk" site_id="25">tvN Movies</channel>
     <channel lang="id" xmltv_id="tvOne.id" site_id="97">TVOne</channel>
     <channel lang="id" xmltv_id="TVRINasional.id" site_id="118">TVRI Nasional</channel>
