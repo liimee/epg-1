@@ -26,10 +26,10 @@
         <channel lang="en" xmltv_id="BeritaSatuWorld.id" site_id="19">Berita Satu World</channel> -->
                 <!-- <channel lang="en" xmltv_id="fill" site_id="239">Bloomberg</channel> -->
                 <!--         <channel lang="en" xmltv_id="BloombergTV.us" site_id="231">BLOOMBERG
-                TELEVISION</channel>
+                TELEVISION</channel>-->
         <channel lang="en" xmltv_id="BoomerangAsia.sg" site_id="372">Boomerang HD</channel>
         <channel lang="en" xmltv_id="CartoonNetworkAsia.sg" site_id="127">Cartoon Network</channel>
-        <channel lang="en" xmltv_id="CCTV4Asia.cn" site_id="209">CCTV 4</channel>
+      <!--  <channel lang="en" xmltv_id="CCTV4Asia.cn" site_id="209">CCTV 4</channel>
         <channel lang="en" xmltv_id="CelestialMoviesIndonesia.id" site_id="204">Celestial Movie</channel>
         <channel lang="en" xmltv_id="CGTN.cn" site_id="210">CGTN</channel>
         <channel lang="en" xmltv_id="CGTNDocumentary.cn" site_id="405">CGTN Documentary HD</channel>
