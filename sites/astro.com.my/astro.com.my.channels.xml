@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="astro.com.my">
   <channels>
-    <channel lang="ms" xmltv_id="8TV.my" site_id="115">8TV</channel>
+<!--     <channel lang="ms" xmltv_id="8TV.my" site_id="115">8TV</channel> -->
     <!-- <channel lang="ms" xmltv_id="" site_id="461">ABC</channel> -->
-    <channel lang="ms" xmltv_id="AdithyaTV.in" site_id="67">Adithya TV</channel>
+<!--     <channel lang="ms" xmltv_id="AdithyaTV.in" site_id="67">Adithya TV</channel>
     <channel lang="ms" xmltv_id="AlJazeeraEnglish.qa" site_id="374">Aljazeera</channel>
-    <channel lang="ms" xmltv_id="AnimalPlanetMalaysia.my" site_id="377">Animal Planet</channel>
+    <channel lang="ms" xmltv_id="AnimalPlanetMalaysia.my" site_id="377">Animal Planet</channel> -->
     <channel lang="ms" xmltv_id="AsianFoodNetwork.sg" site_id="91">Asian Food Network</channel>
-    <channel lang="ms" xmltv_id="AstroAEC.my" site_id="182">Astro AEC</channel>
+<!--     <channel lang="ms" xmltv_id="AstroAEC.my" site_id="182">Astro AEC</channel>
     <channel lang="ms" xmltv_id="AstroAOD311.my" site_id="172">Astro AOD 311</channel>
     <channel lang="ms" xmltv_id="AstroAOD352.my" site_id="87">Astro AOD 352</channel>
     <channel lang="ms" xmltv_id="AstroAOD353.my" site_id="114">Astro AOD 353</channel>
@@ -57,25 +57,25 @@
     <channel lang="ms" xmltv_id="beINSports3.qa" site_id="313">beIN Sports 3</channel>
     <channel lang="ms" xmltv_id="BernamaTV.my" site_id="160">Bernama TV</channel>
     <channel lang="ms" xmltv_id="BloombergTVAsia.hk" site_id="422">Bloomberg TV</channel>
-    <channel lang="ms" xmltv_id="Boo.my" site_id="251">Boo</channel>
+    <channel lang="ms" xmltv_id="Boo.my" site_id="251">Boo</channel> -->
     <channel lang="ms" xmltv_id="BoomerangSoutheastAsia.us" site_id="430">Boomerang</channel>
     <channel lang="ms" xmltv_id="CartoonNetworkAsia.sg" site_id="371">Cartoon Network HD</channel>
-    <channel lang="ms" xmltv_id="CCTV4Asia.cn" site_id="385">CCTV 4</channel>
+<!--     <channel lang="ms" xmltv_id="CCTV4Asia.cn" site_id="385">CCTV 4</channel>
     <channel lang="ms" xmltv_id="CCM.hk" site_id="187">Celestial Classic Movies</channel>
     <channel lang="ms" xmltv_id="CelestialMoviesMalaysia.my" site_id="134">Celestial Movies</channel>
     <channel lang="ms" xmltv_id="CGTN.cn" site_id="426">CGTN</channel>
-    <channel lang="ms" xmltv_id="ChuttiTVMalaysia.my" site_id="51">Chutti TV</channel>
+    <channel lang="ms" xmltv_id="ChuttiTVMalaysia.my" site_id="51">Chutti TV</channel> -->
     <channel lang="ms" xmltv_id="CinemaxAsia.sg" site_id="337">Cinemax</channel>
-    <channel lang="ms" xmltv_id="CNA.sg" site_id="295">CNA</channel>
+<!--     <channel lang="ms" xmltv_id="CNA.sg" site_id="295">CNA</channel>
     <channel lang="ms" xmltv_id="CNBCAsia.sg" site_id="423">CNBC Asia-Pacific</channel>
     <channel lang="ms" xmltv_id="CNNInternationalAsiaPacific.hk" site_id="336">CNN</channel>
     <channel lang="ms" xmltv_id="Colors.in" site_id="365">Colors</channel>
     <channel lang="ms" xmltv_id="ColorsTamil.in" site_id="298">Colors Tamil</channel>
     <channel lang="ms" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="369">Crime + Investigation</channel>
     <channel lang="ms" xmltv_id="CTiAsia.tw" site_id="424">CTI TV</channel>
-    <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel>
+    <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel> -->
     <channel lang="ms" xmltv_id="DiscoveryChannelIndonesia.id" site_id="376">Discovery Channel</channel>
-    <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel>
+<!--     <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel>
     <channel lang="ms" xmltv_id="DWEnglish.de" site_id="287">DW English</channel>
     <channel lang="ms" xmltv_id="eGGNetwork.my" site_id="206">Egg Network</channel>
     <channel lang="ms" xmltv_id="EurosportAsia.fr" site_id="339">Eurosport</channel>
@@ -85,12 +85,12 @@
     <channel lang="ms" xmltv_id="GoShopChinese.my" site_id="202">Go Shop Chinese</channel>
     <channel lang="ms" xmltv_id="GoShopMalay111.my" site_id="403">Go Shop Malay 111</channel>
     <channel lang="ms" xmltv_id="GoShopMalay118.my" site_id="192">Go Shop Malay 118</channel>
-    <channel lang="ms" xmltv_id="GoShopMalay120.my" site_id="294">Go Shop Malay 120</channel>
+    <channel lang="ms" xmltv_id="GoShopMalay120.my" site_id="294">Go Shop Malay 120</channel> -->
     <channel lang="ms" xmltv_id="HBOAsia.sg" site_id="143">HBO</channel>
     <channel lang="ms" xmltv_id="HBOFamilyAsia.sg" site_id="450">HBO Family</channel>
     <channel lang="ms" xmltv_id="HBOHitsAsia.sg" site_id="449">HBO Hits</channel>
-    <channel lang="ms" xmltv_id="HGTVAsia.us" site_id="198">HGTV</channel>
-    <channel lang="ms" xmltv_id="HistoryAsia.us" site_id="144">History</channel>
+<!--     <channel lang="ms" xmltv_id="HGTVAsia.us" site_id="198">HGTV</channel> -->
+<!--     <channel lang="ms" xmltv_id="HistoryAsia.us" site_id="144">History</channel>
     <channel lang="ms" xmltv_id="HITS.sg" site_id="179">Hits</channel>
     <channel lang="ms" xmltv_id="HITSMovies.sg" site_id="391">Hits Movies</channel>
     <channel lang="ms" xmltv_id="iQIYI.cn" site_id="355">Iqiyi</channel>
@@ -138,6 +138,6 @@
     <channel lang="ms" xmltv_id="TVS.my" site_id="429">TVS</channel>
     <channel lang="ms" xmltv_id="WarnerTVAsia.us" site_id="270">Warner TV</channel>
     <channel lang="ms" xmltv_id="WWENetwork.us" site_id="194">WWE Network</channel>
-    <channel lang="ms" xmltv_id="ZeeTamil.in" site_id="297">Zee Tamil</channel>
+    <channel lang="ms" xmltv_id="ZeeTamil.in" site_id="297">Zee Tamil</channel> -->
   </channels>
 </site>
