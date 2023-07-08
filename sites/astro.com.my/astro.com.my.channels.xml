@@ -92,9 +92,9 @@
     <channel lang="ms" xmltv_id="HBOHitsAsia.sg" site_id="449">HBO Hits</channel>
 <!--     <channel lang="ms" xmltv_id="HGTVAsia.us" site_id="198">HGTV</channel> -->
      <channel lang="ms" xmltv_id="HistoryAsia.us" site_id="144">History</channel>
-  <!--  <channel lang="ms" xmltv_id="HITS.sg" site_id="179">Hits</channel>
+    <channel lang="ms" xmltv_id="HITS.sg" site_id="179">Hits</channel>
     <channel lang="ms" xmltv_id="HITSMovies.sg" site_id="391">Hits Movies</channel>
-    <channel lang="ms" xmltv_id="iQIYI.cn" site_id="355">Iqiyi</channel>
+    <!--<channel lang="ms" xmltv_id="iQIYI.cn" site_id="355">Iqiyi</channel>
     <channel lang="ms" xmltv_id="KBSWorld.kr" site_id="161">KBS World</channel>
     <channel lang="ms" xmltv_id="KIX.hk" site_id="157">Kix</channel>
     <channel lang="ms" xmltv_id="KPlus.sg" site_id="266">K+</channel>
