@@ -120,6 +120,7 @@
     <channel lang="ms" xmltv_id="ShowcaseMovies.my" site_id="454">Showcase Movies</channel>
     <channel lang="ms" xmltv_id="SkyNews.uk" site_id="155">Sky News UK</channel>-->
     <channel lang="ms" xmltv_id="SPOTV.kr" site_id="456">SPOTV</channel>
+    <channel lang="ms" xmltv_id="SPOTV2.kr" site_id="474">SPOTV 2</channel>
    <!-- <channel lang="ms" xmltv_id="StarVijay.in" site_id="357">Star Vijay</channel>
     <channel lang="ms" xmltv_id="SunMusic.in" site_id="417">Sun Music</channel>
     <channel lang="ms" xmltv_id="SunTVMalaysia.my" site_id="358">Sun TV</channel>
