@@ -21,7 +21,7 @@ module.exports = {
       const stop = start.add(duration, 's')
       const details = await loadProgramDetails(item)
       programs.push({
-        title: item.title,
+        title: details.title,
         sub_title: item.subtitles,
         description: details.longSynopsis || details.shortSynopsis,
         actors: parseList(details.cast),
