@@ -80,8 +80,9 @@
     <channel lang="ms" xmltv_id="eGGNetwork.my" site_id="206">Egg Network</channel>
     <channel lang="ms" xmltv_id="EurosportAsia.fr" site_id="339">Eurosport</channel>
     <channel lang="ms" xmltv_id="FoodNetworkAsia.sg" site_id="153">Food Network</channel>
-    <channel lang="ms" xmltv_id="France24English.fr" site_id="289">France 24 English</channel>
-    <channel lang="ms" xmltv_id="GolfChannelMalaysia.my" site_id="189">Golf Channel</channel>
+    <channel lang="ms" xmltv_id="France24English.fr" site_id="289">France 24 English</channel>-->
+    <channel lang="ms" xmltv_id="GlobalTrekker.sg" site_id="482">Global Trekker</channel>
+    <!--<channel lang="ms" xmltv_id="GolfChannelMalaysia.my" site_id="189">Golf Channel</channel>
     <channel lang="ms" xmltv_id="GoShopChinese.my" site_id="202">Go Shop Chinese</channel>
     <channel lang="ms" xmltv_id="GoShopMalay111.my" site_id="403">Go Shop Malay 111</channel>
     <channel lang="ms" xmltv_id="GoShopMalay118.my" site_id="192">Go Shop Malay 118</channel>
