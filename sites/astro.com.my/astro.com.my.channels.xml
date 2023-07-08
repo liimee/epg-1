@@ -46,9 +46,9 @@
     <channel lang="ms" xmltv_id="AstroWahLaiToi.my" site_id="129">Astro Wah Lai Toi</channel>
     <channel lang="ms" xmltv_id="AstroWarna.my" site_id="272">Astro Warna</channel>
     <channel lang="ms" xmltv_id="AstroXiaoTaiYang.my" site_id="387">Astro Xiao Tai Yang</channel>
-    <channel lang="ms" xmltv_id="AwesomeTV.my" site_id="433">Awesome TV</channel>
+    <channel lang="ms" xmltv_id="AwesomeTV.my" site_id="433">Awesome TV</channel>-->
     <channel lang="ms" xmltv_id="AXNMalaysia.my" site_id="131">AXN</channel>
-    <channel lang="ms" xmltv_id="BBCEarthAsia.uk" site_id="452">BBC Earth</channel>
+  <!--  <channel lang="ms" xmltv_id="BBCEarthAsia.uk" site_id="452">BBC Earth</channel>
     <channel lang="ms" xmltv_id="BBCFirstAsia.uk" site_id="458">BBC First</channel>
     <channel lang="ms" xmltv_id="BBCLifestyleAsia.uk" site_id="451">BBC Lifestyle</channel>
     <channel lang="ms" xmltv_id="BBCWorldNewsAsiaPacific.uk" site_id="366">BBC World News</channel>
@@ -90,8 +90,8 @@
     <channel lang="ms" xmltv_id="HBOFamilyAsia.sg" site_id="450">HBO Family</channel>
     <channel lang="ms" xmltv_id="HBOHitsAsia.sg" site_id="449">HBO Hits</channel>
 <!--     <channel lang="ms" xmltv_id="HGTVAsia.us" site_id="198">HGTV</channel> -->
-<!--     <channel lang="ms" xmltv_id="HistoryAsia.us" site_id="144">History</channel>
-    <channel lang="ms" xmltv_id="HITS.sg" site_id="179">Hits</channel>
+     <channel lang="ms" xmltv_id="HistoryAsia.us" site_id="144">History</channel>
+  <!--  <channel lang="ms" xmltv_id="HITS.sg" site_id="179">Hits</channel>
     <channel lang="ms" xmltv_id="HITSMovies.sg" site_id="391">Hits Movies</channel>
     <channel lang="ms" xmltv_id="iQIYI.cn" site_id="355">Iqiyi</channel>
     <channel lang="ms" xmltv_id="KBSWorld.kr" site_id="161">KBS World</channel>
@@ -108,9 +108,9 @@
     <channel lang="ms" xmltv_id="NickJrAsia.sg" site_id="392">Nick Jr</channel>
     <channel lang="ms" xmltv_id="NjoiTV.my" site_id="302">Njoi TV</channel>
     <channel lang="ms" xmltv_id="NTV7.my" site_id="93">NTV 7</channel>
-    <channel lang="ms" xmltv_id="OneTVAsia.sg" site_id="133">One</channel>
-    <channel lang="ms" xmltv_id="ParamountNetworkMalaysia.my" site_id="448">Paramount Network</channel>
-    <channel lang="ms" xmltv_id="PhoenixChineseChannel.hk" site_id="382">Phoenix Chinese Channel</channel>
+    <channel lang="ms" xmltv_id="OneTVAsia.sg" site_id="133">One</channel>-->
+    <channel lang="ms" xmltv_id="ParamountNetworkIndonesia.id" site_id="448">Paramount Network</channel>
+    <!--<channel lang="ms" xmltv_id="PhoenixChineseChannel.hk" site_id="382">Phoenix Chinese Channel</channel>
     <channel lang="ms" xmltv_id="PhoenixInfoNewsChannel.hk" site_id="43">Phoenix InfoNews Channel</channel>
     <channel lang="ms" xmltv_id="PremierSports1Asia.ie" site_id="393">Premier Sports</channel>
     <channel lang="ms" xmltv_id="PRIMEtime.my" site_id="453">PRIMEtime</channel>
@@ -118,9 +118,9 @@
     <channel lang="ms" xmltv_id="TV2.my" site_id="396">RTM TV2</channel>
     <channel lang="ms" xmltv_id="Okey.my" site_id="97">RTM TV Okey</channel>
     <channel lang="ms" xmltv_id="ShowcaseMovies.my" site_id="454">Showcase Movies</channel>
-    <channel lang="ms" xmltv_id="SkyNews.uk" site_id="155">Sky News UK</channel>
+    <channel lang="ms" xmltv_id="SkyNews.uk" site_id="155">Sky News UK</channel>-->
     <channel lang="ms" xmltv_id="SPOTV.kr" site_id="456">SPOTV</channel>
-    <channel lang="ms" xmltv_id="StarVijay.in" site_id="357">Star Vijay</channel>
+   <!-- <channel lang="ms" xmltv_id="StarVijay.in" site_id="357">Star Vijay</channel>
     <channel lang="ms" xmltv_id="SunMusic.in" site_id="417">Sun Music</channel>
     <channel lang="ms" xmltv_id="SunTVMalaysia.my" site_id="358">Sun TV</channel>
     <channel lang="ms" xmltv_id="TADAA.my" site_id="432">Ta-Daa!</channel>
