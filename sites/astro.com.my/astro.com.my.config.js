@@ -30,6 +30,7 @@ module.exports = {
         rating: parseRating(details),
         categories: parseCategories(details),
         episode: parseEpisode(item),
+        season: parseSeason(details),
         start: start,
         stop: stop
       })
@@ -43,6 +44,12 @@ function parseEpisode(item) {
   const [_, number] = item.title.match(/Ep(\d+)$/) || [null, null]
 
   return number ? parseInt(number) : null
+}
+
+function parseSeason(item) {
+  const [_, season] = item.title.match(/ S(\d+)/) || [null, null]
+
+  return season ? parseInt(season) : null
 }
 
 function parseList(list) {
