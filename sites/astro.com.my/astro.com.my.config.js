@@ -21,7 +21,7 @@ module.exports = {
       const stop = start.add(duration, 's')
       const details = await loadProgramDetails(item)
       programs.push({
-        title: details.title,
+        title: details.title.replace(/(S\d+,?\s*)?Ep?\d+/, ''),
         sub_title: item.subtitles,
         description: details.longSynopsis || details.shortSynopsis,
         actors: parseList(details.cast),
@@ -29,7 +29,7 @@ module.exports = {
         icon: details.imageUrl,
         rating: parseRating(details),
         categories: parseCategories(details),
-        episode: parseEpisode(item),
+        episode: parseEpisode(details),
         season: parseSeason(details),
         start: start,
         stop: stop
@@ -41,7 +41,7 @@ module.exports = {
 }
 
 function parseEpisode(item) {
-  const [_, number] = item.title.match(/Ep(\d+)$/) || [null, null]
+  const [_, number] = item.title.match(/Ep\s*(\d+)$/) || [null, null]
 
   return number ? parseInt(number) : null
 }
