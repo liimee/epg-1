@@ -4,8 +4,8 @@
 <!--     <channel lang="ms" xmltv_id="8TV.my" site_id="115">8TV</channel> -->
     <!-- <channel lang="ms" xmltv_id="" site_id="461">ABC</channel> -->
 <!--     <channel lang="ms" xmltv_id="AdithyaTV.in" site_id="67">Adithya TV</channel>
-    <channel lang="ms" xmltv_id="AlJazeeraEnglish.qa" site_id="374">Aljazeera</channel>
-    <channel lang="ms" xmltv_id="AnimalPlanetMalaysia.my" site_id="377">Animal Planet</channel> -->
+    <channel lang="ms" xmltv_id="AlJazeeraEnglish.qa" site_id="374">Aljazeera</channel>-->
+    <channel lang="ms" xmltv_id="AnimalPlanetMalaysia.my" site_id="377">Animal Planet</channel>
     <channel lang="ms" xmltv_id="AsianFoodNetwork.sg" site_id="91">Asian Food Network</channel>
 <!--     <channel lang="ms" xmltv_id="AstroAEC.my" site_id="182">Astro AEC</channel>
     <channel lang="ms" xmltv_id="AstroAOD311.my" site_id="172">Astro AOD 311</channel>
@@ -75,8 +75,8 @@
     <!--<channel lang="ms" xmltv_id="CTiAsia.tw" site_id="424">CTI TV</channel>-->
     <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel>
     <channel lang="ms" xmltv_id="DiscoveryChannelIndonesia.id" site_id="376">Discovery Channel</channel>
-<!--     <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel>
-    <channel lang="ms" xmltv_id="DWEnglish.de" site_id="287">DW English</channel>
+    <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel>
+    <!--<channel lang="ms" xmltv_id="DWEnglish.de" site_id="287">DW English</channel>
     <channel lang="ms" xmltv_id="eGGNetwork.my" site_id="206">Egg Network</channel>
     <channel lang="ms" xmltv_id="EurosportAsia.fr" site_id="339">Eurosport</channel>
     <channel lang="ms" xmltv_id="FoodNetworkAsia.sg" site_id="153">Food Network</channel>
@@ -97,9 +97,9 @@
     <!--<channel lang="ms" xmltv_id="iQIYI.cn" site_id="355">Iqiyi</channel>
     <channel lang="ms" xmltv_id="KBSWorld.kr" site_id="161">KBS World</channel>
     <channel lang="ms" xmltv_id="KIX.hk" site_id="157">Kix</channel>
-    <channel lang="ms" xmltv_id="KPlus.sg" site_id="266">K+</channel>
+    <channel lang="ms" xmltv_id="KPlus.sg" site_id="266">K+</channel>-->
     <channel lang="ms" xmltv_id="LifetimeAsia.us" site_id="447">Lifetime</channel>
-    <channel lang="ms" xmltv_id="MoonbugKids.uk" site_id="465">Moonbug Kids</channel>
+    <!--<channel lang="ms" xmltv_id="MoonbugKids.uk" site_id="465">Moonbug Kids</channel>
     <channel lang="ms" xmltv_id="MTVAsia.sg" site_id="420">MTV</channel>
     <channel lang="ms" xmltv_id="NatGeoPeopleMalaysia.my" site_id="199">Nat Geo People</channel>
     <channel lang="ms" xmltv_id="NationalGeographicMalaysia.my" site_id="140">National Geographic</channel>
@@ -125,9 +125,9 @@
    <!-- <channel lang="ms" xmltv_id="StarVijay.in" site_id="357">Star Vijay</channel>
     <channel lang="ms" xmltv_id="SunMusic.in" site_id="417">Sun Music</channel>
     <channel lang="ms" xmltv_id="SunTVMalaysia.my" site_id="358">Sun TV</channel>
-    <channel lang="ms" xmltv_id="TADAA.my" site_id="432">Ta-Daa!</channel>
+    <channel lang="ms" xmltv_id="TADAA.my" site_id="432">Ta-Daa!</channel>-->
     <channel lang="ms" xmltv_id="TLCSoutheastAsia.sg" site_id="338">TLC</channel>
-    <channel lang="ms" xmltv_id="TV3.my" site_id="106">TV 3</channel>
+    <!--<channel lang="ms" xmltv_id="TV3.my" site_id="106">TV 3</channel>
     <channel lang="ms" xmltv_id="TV9.my" site_id="48">TV 9</channel>
     <channel lang="ms" xmltv_id="TVAlhijrah.my" site_id="149">TV Alhijrah</channel>
     <channel lang="ms" xmltv_id="TVBClassic.hk" site_id="425">TVB Classic</channel>
