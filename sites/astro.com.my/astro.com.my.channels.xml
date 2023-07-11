@@ -72,8 +72,8 @@
     <channel lang="ms" xmltv_id="Colors.in" site_id="365">Colors</channel>
     <channel lang="ms" xmltv_id="ColorsTamil.in" site_id="298">Colors Tamil</channel>-->
     <channel lang="ms" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="369">Crime + Investigation</channel>
-    <!--<channel lang="ms" xmltv_id="CTiAsia.tw" site_id="424">CTI TV</channel>
-    <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel> -->
+    <!--<channel lang="ms" xmltv_id="CTiAsia.tw" site_id="424">CTI TV</channel>-->
+    <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel>
     <channel lang="ms" xmltv_id="DiscoveryChannelIndonesia.id" site_id="376">Discovery Channel</channel>
 <!--     <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel>
     <channel lang="ms" xmltv_id="DWEnglish.de" site_id="287">DW English</channel>
