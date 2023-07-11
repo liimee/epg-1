@@ -70,9 +70,9 @@
     <channel lang="ms" xmltv_id="CNBCAsia.sg" site_id="423">CNBC Asia-Pacific</channel>
     <channel lang="ms" xmltv_id="CNNInternationalAsiaPacific.hk" site_id="336">CNN</channel>
     <channel lang="ms" xmltv_id="Colors.in" site_id="365">Colors</channel>
-    <channel lang="ms" xmltv_id="ColorsTamil.in" site_id="298">Colors Tamil</channel>
+    <channel lang="ms" xmltv_id="ColorsTamil.in" site_id="298">Colors Tamil</channel>-->
     <channel lang="ms" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="369">Crime + Investigation</channel>
-    <channel lang="ms" xmltv_id="CTiAsia.tw" site_id="424">CTI TV</channel>
+    <!--<channel lang="ms" xmltv_id="CTiAsia.tw" site_id="424">CTI TV</channel>
     <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel> -->
     <channel lang="ms" xmltv_id="DiscoveryChannelIndonesia.id" site_id="376">Discovery Channel</channel>
 <!--     <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel>
@@ -108,8 +108,8 @@
     <channel lang="ms" xmltv_id="NickelodeonAsia.sg" site_id="370">Nickelodeon</channel>
     <channel lang="ms" xmltv_id="NickJrAsia.sg" site_id="392">Nick Jr</channel>
     <channel lang="ms" xmltv_id="NjoiTV.my" site_id="302">Njoi TV</channel>
-    <channel lang="ms" xmltv_id="NTV7.my" site_id="93">NTV 7</channel>
-    <channel lang="ms" xmltv_id="OneTVAsia.sg" site_id="133">One</channel>-->
+    <channel lang="ms" xmltv_id="NTV7.my" site_id="93">NTV 7</channel>-->
+    <channel lang="ms" xmltv_id="OneTVAsia.sg" site_id="133">One</channel>
     <channel lang="ms" xmltv_id="ParamountNetworkIndonesia.id" site_id="448">Paramount Network</channel>
     <!--<channel lang="ms" xmltv_id="PhoenixChineseChannel.hk" site_id="382">Phoenix Chinese Channel</channel>
     <channel lang="ms" xmltv_id="PhoenixInfoNewsChannel.hk" site_id="43">Phoenix InfoNews Channel</channel>
