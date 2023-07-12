@@ -16,8 +16,8 @@ module.exports = {
     const programs = []
     const items = parseItems(content, date)
     for (let item of items) {
-      // start n stop subtracted 5 minute
-      const start = dayjs.utc(item.datetimeInUtc).subtract(5, 'minute')
+      // start n stop added 3 minute
+      const start = dayjs.utc(item.datetimeInUtc).add(3, 'minute')
       const duration = parseDuration(item.duration)
       const stop = start.add(duration, 's')
       const details = await loadProgramDetails(item)
