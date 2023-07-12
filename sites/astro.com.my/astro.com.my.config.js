@@ -19,7 +19,7 @@ module.exports = {
       // start n stop subtracted 5 minute
       const start = dayjs.utc(item.datetimeInUtc).subtract(5, 'minute')
       const duration = parseDuration(item.duration)
-      const stop = start.add(duration, 's').subtract(5, 'minute')
+      const stop = start.add(duration, 's')
       const details = await loadProgramDetails(item)
       programs.push({
         title: details.title.replace(/(S\d+,?\s*)?Ep?\d+/, ''),
