@@ -39,9 +39,9 @@
     <channel lang="en" xmltv_id="FoxNewsChannel.us" site_id="335">Fox News Channel</channel>
     <channel lang="en" xmltv_id="France24English.fr" site_id="352">France 24</channel>
     <channel lang="en" xmltv_id="Galaxy.id" site_id="13">Galaxy</channel>
-    <channel lang="en" xmltv_id="GalaxyPremium.id" site_id="12">Galaxy Premium</channel>
+    <channel lang="en" xmltv_id="GalaxyPremium.id" site_id="12">Galaxy Premium</channel>-->
     <channel lang="en" xmltv_id="GTV.id" site_id="81">GTV</channel>
-    <channel lang="en" xmltv_id="HBOAsia.sg" site_id="7">HBO Asia</channel>
+    <!--<channel lang="en" xmltv_id="HBOAsia.sg" site_id="7">HBO Asia</channel>
     <channel lang="en" xmltv_id="HBOFamilyAsia.sg" site_id="9">HBO Family Asia</channel>
     <channel lang="en" xmltv_id="HBOHitsAsia.sg" site_id="10">HBO Hits</channel>
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="6">HBO Signature Asia</channel>
@@ -66,9 +66,9 @@
     <channel lang="en" xmltv_id="MNCNews.id" site_id="84">MNC News</channel>
     <channel lang="en" xmltv_id="MNCSports.id" site_id="102">MNC Sports</channel>
     <channel lang="en" xmltv_id="MNCSports2.id" site_id="98">MNC Sports 2</channel>
-    <channel lang="en" xmltv_id="MNCSports3.id" site_id="99">MNC Sports 3</channel>
+    <channel lang="en" xmltv_id="MNCSports3.id" site_id="99">MNC Sports 3</channel>-->
     <channel lang="en" xmltv_id="MNCTV.id" site_id="82">MNC TV</channel>
-    <channel lang="en" xmltv_id="MShopSignature.id" site_id="88">M Shop Signature</channel>
+    <!--<channel lang="en" xmltv_id="MShopSignature.id" site_id="88">M Shop Signature</channel>
     <channel lang="en" xmltv_id="MShopSuperSale.id" site_id="79">M Shop Super Sale!</channel>
     <channel lang="en" xmltv_id="MusicTV.id" site_id="111">Music TV</channel>
     <channel lang="en" xmltv_id="MuslimTV.id" site_id="92">Muslim TV</channel>-->
