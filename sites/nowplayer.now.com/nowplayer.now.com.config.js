@@ -11,7 +11,7 @@ module.exports = {
   url: function ({ channel, date }) {
     const diff = date.diff(dayjs.utc().startOf('d'), 'd') + 1
 
-    return `https://nowplayer.now.com/tvguide/epglist?channelIdList[]=${channel.site_id}&day=${diff}`
+    return `https://api.allorigins.win/raw?url=https://nowplayer.now.com/tvguide/epglist?channelIdList[]=${channel.site_id}&day=${diff}`
   },
   request: {
     headers({ channel }) {
@@ -35,7 +35,7 @@ module.exports = {
   },
   async channels({ lang }) {
     const html = await axios
-      .get(`https://nowplayer.now.com/channels`, { headers: { Accept: 'text/html' } })
+      .get(`https://api.allorigins.win/raw?url=https://nowplayer.now.com/channels`, { headers: { Accept: 'text/html' } })
       .then(r => r.data)
       .catch(console.log)
 
