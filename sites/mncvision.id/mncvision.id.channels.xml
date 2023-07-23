@@ -38,8 +38,8 @@
     <channel lang="en" xmltv_id="FMN.id" site_id="150">FMN</channel>
     <channel lang="en" xmltv_id="FoxNewsChannel.us" site_id="335">Fox News Channel</channel>
     <channel lang="en" xmltv_id="France24English.fr" site_id="352">France 24</channel>
-    <channel lang="en" xmltv_id="Galaxy.id" site_id="13">Galaxy</channel>
-    <channel lang="en" xmltv_id="GalaxyPremium.id" site_id="12">Galaxy Premium</channel>-->
+    <channel lang="en" xmltv_id="Galaxy.id" site_id="13">Galaxy</channel>-->
+    <channel lang="en" xmltv_id="GalaxyPremium.id" site_id="12">Galaxy Premium</channel>
     <channel lang="en" xmltv_id="GTV.id" site_id="81">GTV</channel>
     <!--<channel lang="en" xmltv_id="HBOAsia.sg" site_id="7">HBO Asia</channel>
     <channel lang="en" xmltv_id="HBOFamilyAsia.sg" site_id="9">HBO Family Asia</channel>
