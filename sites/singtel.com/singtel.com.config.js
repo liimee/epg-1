@@ -17,17 +17,23 @@ module.exports = {
     return `https://www.singtel.com/etc/singtel/public/tv/epg-parsed-data/${date.format('DDMMYYYY')}.json`
   },
   parser({ content, channel }) {
+    const seasonRegex = / S(\d+)$/
+    
     let programs = []
     const items = parseItems(content, channel)
     items.forEach(item => {
       const start = dayjs.tz(item.startDateTime,'Asia/Singapore')
       const stop = start.add(item.duration, 's')
+
+      const season = (item.program.title.match(seasonRegex) || [null, null])[1]
       programs.push({
-        title: item.program.title,
+        title: item.program.title.replace(seasonRegex, ''),
         category: item.program.subCategory,
         description: item.program.description,
         start,
-        stop
+        stop,
+        season: season ? parseInt(season) : null,
+        episode: parseInt(item.programValues.find(v => v.name == 'MSEPG_Syndicated_Episode_Number').description)
       })
     })
 
