@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="singtel.com">
   <channels>
-    <channel lang="en" xmltv_id="HitsNow.sg" site_id="5303">ZEE TV</channel>
+    <channel lang="en" xmltv_id="HitsNow.sg" site_id="5303">HITS NOW</channel>
     <!-- <channel lang="en" xmltv_id="ABCAustralia.au" site_id="5251">ABC Australia</channel>
     <channel lang="en" xmltv_id="???" site_id="6694">ABS-CBN News Channel</channel>
     <channel lang="en" xmltv_id="AdithyaTV.in" site_id="5628">Adithya TV</channel>
@@ -37,35 +37,35 @@
     <channel lang="en" xmltv_id="Channel5.sg" site_id="5002">Ch 5</channel>
     <channel lang="zh" xmltv_id="Channel8.sg" site_id="5003">Ch 8</channel>
     <channel lang="zh" xmltv_id="ChannelU.sg" site_id="5007">Ch U</channel>
-    <!-- <channel lang="zh" xmltv_id="???" site_id="5538">China Movie Channel</channel> -->
+    <channel lang="zh" xmltv_id="???" site_id="5538">China Movie Channel</channel>
     <channel lang="en" xmltv_id="CinemaOneGlobal.ph" site_id="5692">Cinema One Global</channel>
     <channel lang="en" xmltv_id="CinemaxAsia.sg" site_id="6424">CINEMAX</channel>
     <channel lang="en" xmltv_id="CitraDrama.id" site_id="5610">Citra Drama</channel>
-    <!-- <channel lang="zh" xmltv_id="???" site_id="6571">CM+</channel> -->
+    <channel lang="zh" xmltv_id="???" site_id="6571">CM+</channel>
     <channel lang="en" xmltv_id="CNA.sg" site_id="5006">CNA</channel>
     <channel lang="en" xmltv_id="CNBCAsia.sg" site_id="5173">CNBC Asia</channel>
     <channel lang="en" xmltv_id="CNNInternationalAsiaPacific.hk" site_id="5167">CNN International</channel>
     <channel lang="en" xmltv_id="Colors.in" site_id="5652">Colors</channel>
     <channel lang="en" xmltv_id="ColorsTamil.in" site_id="5623">Colors Tamil HD</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5125">Cricket Plus</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5125">Cricket Plus</channel>
     <channel lang="en" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="5206">Crime + Investigation</channel>
     <channel lang="zh" xmltv_id="CTiTV.tw" site_id="5557">CTI Asia</channel>
     <channel lang="en" xmltv_id="DWEnglish.de" site_id="5161">Deutsche Welle (English)</channel>
     <channel lang="en" xmltv_id="DiscoveryAsia.sg" site_id="5204">Discovery Asia</channel>
     <channel lang="en" xmltv_id="DiscoveryChannelSoutheastAsia.sg" site_id="5202">Discovery Channel</channel>
     <channel lang="en" xmltv_id="DiscoveryScienceSoutheastAsia.sg" site_id="5205">Discovery Science</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5258">DMAX</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5258">DMAX</channel>
     <channel lang="zh" xmltv_id="DragonTVInternational.cn" site_id="5535">Dragon TV Intl</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5618">Drama Channel</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5618">Drama Channel</channel>
     <channel lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="5233">DreamWorks</channel>
     <channel lang="en" xmltv_id="eGGNetwork.my" site_id="5120">eGG Network</channel>
-    <!-- <channel lang="zh" xmltv_id="???" site_id="5501">e-Le</channel> -->
+    <channel lang="zh" xmltv_id="???" site_id="5501">e-Le</channel>
     <channel lang="zh" xmltv_id="ETTVChina.tw" site_id="5521">ETTV Asia</channel>
     <channel lang="zh" xmltv_id="ETTVAsiaNews.tw" site_id="5046">ETTV Asia News </channel>
     <channel lang="en" xmltv_id="EurosportAsia.fr" site_id="6116">EUROSPORT </channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="6119">Fight Sports</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="6119">Fight Sports</channel>
     <channel lang="en" xmltv_id="FoodNetworkAsia.sg" site_id="5252">Food Network</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5165">FOX News Channel</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5165">FOX News Channel</channel>
     <channel lang="en" xmltv_id="France24English.fr" site_id="5041">France 24 (English)</channel>
     <channel lang="fr" xmltv_id="France24French.fr" site_id="5040">France 24 (French) </channel>
     <channel lang="zh" xmltv_id="GEM.sg" site_id="5519">GEM</channel>
@@ -76,31 +76,31 @@
     <channel lang="en" xmltv_id="HBOAsia.sg" site_id="6420">HBO HD</channel>
     <channel lang="en" xmltv_id="HBOHitsAsia.sg" site_id="6423">HBO Hits</channel>
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="6421">HBO Signature</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5250">HGTV</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="5209">HISTORY</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5250">HGTV</channel>
+    <channel lang="en" xmltv_id="???" site_id="5209">HISTORY</channel>
     <channel lang="en" xmltv_id="HITS.sg" site_id="5326">HITS</channel>
     <channel lang="en" xmltv_id="HITSMovies.sg" site_id="6301">HITS Movies HD </channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5169">HLN</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5169">HLN</channel>
     <channel lang="en" xmltv_id="HubPremier1.sg" site_id="4102">Hub Premier 1</channel>
     <channel lang="en" xmltv_id="HubPremier2.sg" site_id="4103">Hub Premier 2</channel>
     <channel lang="en" xmltv_id="HubPremier3.sg" site_id="4104">Hub Premier 3</channel>
     <channel lang="en" xmltv_id="HubPremier4.sg" site_id="4105">Hub Premier 4</channel>
     <channel lang="zh" xmltv_id="HunanTVInternational.cn" site_id="5536">Hunan International</channel>
-    <!-- <channel lang="zh" xmltv_id="???" site_id="5502">Jia Le Channel</channel> -->
+    <channel lang="zh" xmltv_id="???" site_id="5502">Jia Le Channel</channel>
     <channel lang="en" xmltv_id="KBSWorld.kr" site_id="5038">KBS World</channel>
     <channel lang="zh" xmltv_id="KBSWorld.kr" site_id="5038">KBS World (Mandarin)</channel>
     <channel lang="en" xmltv_id="KTV.in" site_id="5625">KTV HD</channel>
     <channel lang="en" xmltv_id="LifetimeAsia.us" site_id="5302">Lifetime</channel>
     <channel lang="en" xmltv_id="LoveNature.ca" site_id="5213">Love Nature</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5670">maa movies</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="6123">mio Cricket</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="6124">mio Cricket Plus</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="5111">mio Sports</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="5112">mio Sports 2</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="5113">mio Sports 3</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="6350">MTV 90s</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5670">maa movies</channel>
+    <channel lang="en" xmltv_id="???" site_id="6123">mio Cricket</channel>
+    <channel lang="en" xmltv_id="???" site_id="6124">mio Cricket Plus</channel>
+    <channel lang="en" xmltv_id="???" site_id="5111">mio Sports</channel>
+    <channel lang="en" xmltv_id="???" site_id="5112">mio Sports 2</channel>
+    <channel lang="en" xmltv_id="???" site_id="5113">mio Sports 3</channel>
+    <channel lang="en" xmltv_id="???" site_id="6350">MTV 90s</channel>
     <channel lang="en" xmltv_id="MTVAsia.sg" site_id="5658">MTV India</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5349">MTV LIVE HD</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5349">MTV LIVE HD</channel>
     <channel lang="en" xmltv_id="NationalGeographicWildSingapore.sg" site_id="5207">Nat Geo Wild HD</channel>
     <channel lang="en" xmltv_id="NationalGeographicSingapore.sg" site_id="5201">National Geographic </channel>
     <channel lang="en" xmltv_id="NDTV24x7.in" site_id="5678">NDTV 24x7</channel>
@@ -112,7 +112,7 @@
     <channel lang="zh" xmltv_id="nowJelli.hk" site_id="5512">now Jelli</channel>
     <channel lang="en" xmltv_id="OneTVAsia.sg" site_id="5604">ONE HD (Malay)</channel>
     <channel lang="zh" xmltv_id="OneTVAsia.sg" site_id="5513">ONE HD (Mandarin)</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5119">Outdoor Channel</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5119">Outdoor Channel</channel>
     <channel lang="en" xmltv_id="ParamountNetworkSingapore.sg" site_id="5418">Paramount Network</channel>
     <channel lang="en" xmltv_id="Pesona.my" site_id="5607">Pesona HD</channel>
     <channel lang="zh" xmltv_id="PhoenixInfoNewsChannel.hk" site_id="6547">Phoenix InfoNews</channel>
@@ -138,9 +138,9 @@
     <channel lang="en" xmltv_id="TechStorm.sg" site_id="5260">TechStorm</channel>
     <channel lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="5693">The Filipino Channel</channel>
     <channel lang="en" xmltv_id="TimesNow.in" site_id="5676">Times Now</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5254">TLC</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5254">TLC</channel>
     <channel lang="en" xmltv_id="TraceSportStars.fr" site_id="5257">TRACE Sports Stars HD</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5021">Travel Channel HD</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5021">Travel Channel HD</channel>
     <channel lang="zh" xmltv_id="Jade.hk" site_id="5511">TVB Jade</channel>
     <channel lang="zh" xmltv_id="TVBXingHe.hk" site_id="5517">TVB Xing He</channel>
     <channel lang="zh" xmltv_id="TVBSAsia.tw" site_id="6507">TVBS Asia</channel>
@@ -150,8 +150,8 @@
     <channel lang="en" xmltv_id="Vasantham.sg" site_id="5005">Vasantham</channel>
     <channel lang="en" xmltv_id="VijayTV.in" site_id="5634">Vijay</channel>
     <channel lang="en" xmltv_id="WarnerTVAsia.us" site_id="5306">Warner TV</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="4141">World Cup CH01</channel> -->
-    <!-- <channel lang="en" xmltv_id="???" site_id="4142">World Cup CH02</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="4141">World Cup CH01</channel>
+    <channel lang="en" xmltv_id="???" site_id="4142">World Cup CH02</channel>
     <channel lang="en" xmltv_id="ZeeTamil.in" site_id="5632">Zee Tamil</channel>
     <channel lang="en" xmltv_id="ZeeTV.in" site_id="5646">ZEE TV</channel> -->
   </channels>
