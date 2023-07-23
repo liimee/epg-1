@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="singtel.com">
   <channels>
-    <channel lang="en" xmltv_id="ABCAustralia.au" site_id="5251">ABC Australia</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="6694">ABS-CBN News Channel</channel> -->
+    <channel lang="en" xmltv_id="HitsNow.sg" site_id="5303">ZEE TV</channel>
+    <!-- <channel lang="en" xmltv_id="ABCAustralia.au" site_id="5251">ABC Australia</channel>
+    <channel lang="en" xmltv_id="???" site_id="6694">ABS-CBN News Channel</channel>
     <channel lang="en" xmltv_id="AdithyaTV.in" site_id="5628">Adithya TV</channel>
-    <!-- <channel lang="en" xmltv_id="???" site_id="5256">AFN</channel> -->
+    <channel lang="en" xmltv_id="???" site_id="5256">AFN</channel>
     <channel lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="5208">Animal Planet</channel>
     <channel lang="en" xmltv_id="AnimaxAsia.sg" site_id="5342">Animax</channel>
     <channel lang="en" xmltv_id="AniplusAsia.sg" site_id="5340">ANIPLUS HD</channel>
@@ -152,6 +153,6 @@
     <!-- <channel lang="en" xmltv_id="???" site_id="4141">World Cup CH01</channel> -->
     <!-- <channel lang="en" xmltv_id="???" site_id="4142">World Cup CH02</channel> -->
     <channel lang="en" xmltv_id="ZeeTamil.in" site_id="5632">Zee Tamil</channel>
-    <channel lang="en" xmltv_id="ZeeTV.in" site_id="5646">ZEE TV</channel>
+    <channel lang="en" xmltv_id="ZeeTV.in" site_id="5646">ZEE TV</channel> -->
   </channels>
 </site>
