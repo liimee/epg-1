@@ -33,7 +33,7 @@ module.exports = {
         start,
         stop,
         season: season ? parseInt(season) : null,
-        episode: parseInt(item.programValues.find(v => v.name == 'MSEPG_Syndicated_Episode_Number').description)
+        episode: parseInt(item.program.programValues.find(v => v.name == 'MSEPG_Syndicated_Episode_Number').description)
       })
     })
 
