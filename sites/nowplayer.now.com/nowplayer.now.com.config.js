@@ -38,8 +38,11 @@ module.exports = {
             stop: parseStop(item),
             episode: parsed.episodeNum,
             categories: parsed.episodic !== "Y" && parsed.genre != "Movies"
-              ? ["Movie", parsed.genre, parsed.subGenre]
-              : [parsed.genre.replace("Movies", "Movie"), parsed.subGenre],
+              ? ["Movie", parsed.genre, ...parsed.subGenre.split("/")]
+              : [
+                parsed.genre.replace("Movies", "Movie"),
+                ...parsed.subGenre.split("/"),
+              ],
             description: parsed.engSynopsis,
             sub_title: parsed.engProgName,
             rating: {
