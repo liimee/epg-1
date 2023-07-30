@@ -11,11 +11,7 @@ module.exports = {
   url: function ({ channel, date }) {
     const diff = date.diff(dayjs.utc().startOf("d"), "d") + 1;
 
-    return `https://api.allorigins.win/raw?url=${
-      encodeURIComponent(
-        `https://nowplayer.now.com/tvguide/epglist?channelIdList[]=${channel.site_id}&day=${diff}`,
-      )
-    }`;
+    return `http://nowplayer.now.com/tvguide/epglist?channelIdList[]=${channel.site_id}&day=${diff}`;
   },
   request: {
     headers({ channel }) {
@@ -24,37 +20,43 @@ module.exports = {
           `LANG=${channel.lang}; Expires=null; Path=/; Domain=nowplayer.now.com`,
       };
     },
+    timeout: 60000
   },
   parser: async function ({ content }) {
     let programs = [];
     const items = parseItems(content);
-    for (let item of items) {
-      const parsed = await axios.get(
-        `https://api.allorigins.win/raw?url=${
-          encodeURIComponent(
-            `https://nowplayer.now.com/tvguide/epgprogramdetail?programId=${item.vimProgramId}`,
-          )
-        }`,
-      ).then((r) => r.data).catch(() => {});
+    const iterate = items.map((item) => {
+      return (async () => {
+        const parsed = await axios.get(
+          `http://nowplayer.now.com/tvguide/epgprogramdetail?programId=${item.vimProgramId}`,
+        ).then((r) => r.data).catch(() => {});
 
-      if (parsed) {
-        programs.push({
-          title: parsed.engSeriesName || parsed.seriesName,
-          start: parseStart(item),
-          stop: parseStop(item),
-          episode: parsed.episodeNum,
-          category: parsed.genre,
-          description: parsed.engSynopsis,
-          sub_title: parsed.engProgName,
-          rating: parsed.certification,
-          season:
-            ((parsed.episodeName || parsed.progName || "").match(
+        if (parsed) {
+          programs.push({
+            title: parsed.engSeriesName || parsed.seriesName,
+            start: parseStart(item),
+            stop: parseStop(item),
+            episode: parsed.episodeNum,
+            categories: parsed.episodic !== "Y" && parsed.genre != "Movies"
+              ? ["Movies", parsed.genre, parsed.subGenre]
+              : [parsed.genre, parsed.subGenre],
+            description: parsed.engSynopsis,
+            sub_title: parsed.engProgName,
+            rating: parsed.certification,
+            season: ((parsed.episodeName || parsed.progName || "").match(
               /S(\d+)E\d+/i,
             ) ||
               [null, null])[1],
-        });
-      }
-    }
+            icon: parsed.portraitImage &&
+              `https://images.now-tv.com/shares/epg_images/${parsed.portraitImage}`,
+            actors: parseList(parsed.actor),
+            director: parsed.director,
+          });
+        }
+      })();
+    });
+
+    await Promise.all(iterate);
 
     return programs;
   },
@@ -90,6 +92,10 @@ function parseStart(item) {
 
 function parseStop(item) {
   return dayjs(item.end);
+}
+
+function parseList(item) {
+  return typeof item === "string" ? item.split(/,\s*/gi) : null;
 }
 
 function parseItems(content) {

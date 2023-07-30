@@ -28,7 +28,7 @@ module.exports = {
         directors: parseList(details.director),
         icon: details.imageUrl,
         rating: parseRating(details),
-        categories: details.filter == "filter/42"
+        categories: details.filter == "Filter/42"
           ? ["Movie", ...parseCategories(details)]
           : parseCategories(details),
         episode: parseEpisode(details),

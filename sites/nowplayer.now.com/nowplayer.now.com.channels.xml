@@ -47,11 +47,11 @@
     <channel lang="en" xmltv_id="GMALifeTV.ph" site_id="721">GMA Life TV</channel>
     <channel lang="en" xmltv_id="GMANewsTVInternational.ph" site_id="722">GMA News TV International</channel>
     <channel lang="en" xmltv_id="GMAPinoyTVAsiaPacific.ph" site_id="720">GMA Pinoy TV Asia-Pacific</channel>
-    <channel lang="en" xmltv_id="HBOAsia.sg" site_id="115">HBO</channel>
+    <channel lang="en" xmltv_id="HBOAsia.sg" site_id="115">HBO</channel>-->
     <channel lang="en" xmltv_id="HBOFamilyAsia.sg" site_id="112">HBO Family</channel>
     <channel lang="en" xmltv_id="HBOHitsAsia.sg" site_id="111">HBO Hits</channel>
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="114">HBO Signature</channel>
-    <channel lang="en" xmltv_id="HGTVAsia.us" site_id="529">HGTV</channel>
+    <!--<channel lang="en" xmltv_id="HGTVAsia.us" site_id="529">HGTV</channel>
     <channel lang="en" xmltv_id="HistoryAsia.us" site_id="223">History</channel>
     <channel lang="en" xmltv_id="HKSTV.hk" site_id="368">HKS TV</channel>
     <channel lang="en" xmltv_id="IceFire.hk" site_id="901">Ice Fire</channel>
