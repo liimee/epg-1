@@ -29,7 +29,7 @@ module.exports = {
         icon: details.imageUrl,
         rating: parseRating(details),
         categories: details.filter == "Filter/42"
-          ? ["Movie", ...parseCategories(details)]
+          ? ["Movie", ...parseCategories(details).filter((v) => v !== "Movies")]
           : parseCategories(details),
         episode: parseEpisode(details),
         season: parseSeason(details),
