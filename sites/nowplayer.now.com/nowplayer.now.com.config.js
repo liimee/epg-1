@@ -20,7 +20,7 @@ module.exports = {
           `LANG=${channel.lang}; Expires=null; Path=/; Domain=nowplayer.now.com`,
       };
     },
-    timeout: 60000
+    timeout: 60000,
   },
   parser: async function ({ content }) {
     let programs = [];
@@ -38,11 +38,14 @@ module.exports = {
             stop: parseStop(item),
             episode: parsed.episodeNum,
             categories: parsed.episodic !== "Y" && parsed.genre != "Movies"
-              ? ["Movies", parsed.genre, parsed.subGenre]
-              : [parsed.genre, parsed.subGenre],
+              ? ["Movie", parsed.genre, parsed.subGenre]
+              : [parsed.genre.replace("Movies", "Movie"), parsed.subGenre],
             description: parsed.engSynopsis,
             sub_title: parsed.engProgName,
-            rating: parsed.certification,
+            rating: {
+              value: parsed.certification,
+              system: "TELA",
+            },
             season: ((parsed.episodeName || parsed.progName || "").match(
               /S(\d+)E\d+/i,
             ) ||
