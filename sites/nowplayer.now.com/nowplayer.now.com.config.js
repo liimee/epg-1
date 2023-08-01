@@ -31,6 +31,12 @@ module.exports = {
       return (async () => {
         const parsed = await axios.get(
           `http://nowplayer.now.com/tvguide/epgprogramdetail?programId=${item.vimProgramId}`,
+          {
+            headers: {
+              "User-Agent":
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+            },
+          },
         ).then((r) => r.data).catch(() => {});
 
         if (parsed) {
