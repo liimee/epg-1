@@ -3,23 +3,23 @@
     <channels>
         <!--     <channel lang="en" xmltv_id="ABCAustralia.au" site_id="350">ABC Australia</channel>
     <channel lang="en" xmltv_id="AlJazeeraEnglish.qa" site_id="331">Aljazeera</channel>
-    <channel lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="203">Animal Planet</channel>-->
+    <channel lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="203">Animal Planet</channel>
         <channel lang="en" xmltv_id="AnimaxAsia.sg" site_id="157">Animax Asia</channel>
-        <!-- <channel lang="en" xmltv_id="ANTV.id" site_id="115">ANTV</channel>
-    <channel lang="en" xmltv_id="ArirangWorld.kr" site_id="351">Arirang</channel> -->
+         <channel lang="en" xmltv_id="ANTV.id" site_id="115">ANTV</channel>
+    <channel lang="en" xmltv_id="ArirangWorld.kr" site_id="351">Arirang</channel>
         <channel lang="en" xmltv_id="AsianFoodNetwork.sg" site_id="240">Asian Food Network</channel>
         <channel lang="en" xmltv_id="AXNIndonesia.id" site_id="154">AXN</channel>
-        <!--   <channel lang="en" xmltv_id="BabyTV.uk" site_id="40">Baby TV</channel>
+        <channel lang="en" xmltv_id="BabyTV.uk" site_id="40">Baby TV</channel>
     <channel lang="en" xmltv_id="BBCEarthAsia.uk" site_id="200">BBC Earth</channel>
     <channel lang="en" xmltv_id="BBCWorldNewsAsiaPacific.uk" site_id="332">BBC World News</channel>
     <channel lang="en" xmltv_id="beINSports1Indonesia.id" site_id="305">BeIn Sports 1</channel>
     <channel lang="en" xmltv_id="beINSports3Indonesia.id" site_id="306">BeIn Sports 3</channel>
     <channel lang="en" xmltv_id="BeritaSatu.id" site_id="103">BTV</channel>
     <channel lang="en" xmltv_id="Besmart.id" site_id="112">Besmart</channel>
-    <channel lang="en" xmltv_id="BloombergTVAsia.hk" site_id="338">Bloomberg TV</channel>-->
+    <channel lang="en" xmltv_id="BloombergTVAsia.hk" site_id="338">Bloomberg TV</channel>
     <channel lang="en" xmltv_id="BoomerangSoutheastAsia.us" site_id="39">Boomerang</channel>
     <channel lang="en" xmltv_id="CartoonNetworkAsia.sg" site_id="47">Cartoon</channel>
-<!--    <channel lang="en" xmltv_id="CBeebiesAsia.uk" site_id="41">CBeebies</channel>
+    <channel lang="en" xmltv_id="CBeebiesAsia.uk" site_id="41">CBeebies</channel>
     <channel lang="en" xmltv_id="CCM.hk" site_id="22">Celestial Classic Movies</channel>
     <channel lang="en" xmltv_id="CelestialMoviesIndonesia.id" site_id="20">Celestial Movies</channel>
     <channel lang="en" xmltv_id="CGTN.cn" site_id="353">CGTN</channel>
@@ -28,11 +28,11 @@
     <channel lang="en" xmltv_id="CNAInternational.sg" site_id="330">CNA</channel>
     <channel lang="en" xmltv_id="CNBCAsia.sg" site_id="337">CNBC</channel>
     <channel lang="en" xmltv_id="CNNInternationalAsiaPacific.hk" site_id="333">CNN
-        International</channel>- -->
+        International</channel>
         <channel lang="en" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="207">Crime +
             Investigation</channel>
         <channel lang="en" xmltv_id="DiscoveryChannelIndonesia.id" site_id="201">Discovery Channel</channel>
-        <!--    <channel lang="en" xmltv_id="DWEnglish.de" site_id="357">DW English</channel>
+            <channel lang="en" xmltv_id="DWEnglish.de" site_id="357">DW English</channel>
     <channel lang="en" xmltv_id="Entertainment.id" site_id="86">Ent</channel>
     <channel lang="en" xmltv_id="FightSports.us" site_id="304">Fight Sports</channel>
     <channel lang="en" xmltv_id="FMN.id" site_id="150">FMN</channel>
@@ -45,11 +45,11 @@
     <channel lang="en" xmltv_id="HBOFamilyAsia.sg" site_id="9">HBO Family Asia</channel>
     <channel lang="en" xmltv_id="HBOHitsAsia.sg" site_id="10">HBO Hits</channel>
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="6">HBO Signature Asia</channel>
-    <channel lang="en" xmltv_id="HGTVAsia.us" site_id="245">HGTV Asia</channel> -->
+    <channel lang="en" xmltv_id="HGTVAsia.us" site_id="245">HGTV Asia</channel>
         <channel lang="en" xmltv_id="HistoryAsia.us" site_id="206">History</channel>
         <channel lang="en" xmltv_id="HITS.sg" site_id="160">Hits</channel>
         <channel lang="en" xmltv_id="HITSMovies.sg" site_id="11">Hits Movies</channel>
-        <!--     <channel lang="en" xmltv_id="IDXChannel.id" site_id="100">IDX Channel</channel>
+        <channel lang="en" xmltv_id="IDXChannel.id" site_id="100">IDX Channel</channel>
     <channel lang="en" xmltv_id="Ie.id" site_id="96">Ie</channel>
     <channel lang="en" xmltv_id="IMC.id" site_id="14">IMC</channel>
     <channel lang="en" xmltv_id="Indosiar.id" site_id="78">Indosiar</channel>-->
@@ -71,20 +71,20 @@
     <!--<channel lang="en" xmltv_id="MShopSignature.id" site_id="88">M Shop Signature</channel>
     <channel lang="en" xmltv_id="MShopSuperSale.id" site_id="79">M Shop Super Sale!</channel>
     <channel lang="en" xmltv_id="MusicTV.id" site_id="111">Music TV</channel>
-    <channel lang="en" xmltv_id="MuslimTV.id" site_id="92">Muslim TV</channel>-->
+    <channel lang="en" xmltv_id="MuslimTV.id" site_id="92">Muslim TV</channel>
     <channel lang="en" xmltv_id="NationalGeographicIndonesia.id" site_id="202">National
         Geographic</channel>
     <channel lang="en" xmltv_id="NationalGeographicWildIndonesia.id" site_id="204">National Geographic
-        Wild</channel>
+        Wild</channel>-->
         <channel lang="en" xmltv_id="NET.id" site_id="116">NET</channel>
         <!--<channel
         lang="en" xmltv_id="NHKWorldJapan.jp" site_id="355">NHK World Japan</channel>
     <channel lang="en" xmltv_id="NHKWorldPremium.jp" site_id="354">NHK World Premium</channel>
     <channel lang="en" xmltv_id="NickelodeonAsia.sg" site_id="49">Nickelodeon</channel>
     <channel lang="en" xmltv_id="NickJrAsia.sg" site_id="37">Nick Jr Asia</channel>
-    <channel lang="en" xmltv_id="OKTV.id" site_id="95">OK TV</channel>-->
+    <channel lang="en" xmltv_id="OKTV.id" site_id="95">OK TV</channel>
         <channel lang="en" xmltv_id="OneTVAsia.sg" site_id="164">One</channel>
-        <!--<channel
+        <channel
         lang="en" xmltv_id="QuranTV.sa" site_id="93">Quran TV</channel>-->
     <channel lang="en" xmltv_id="RCTI.id" site_id="80">RCTI</channel>
     <channel lang="en" xmltv_id="SCTV.id" site_id="89">SCTV</channel>
@@ -145,12 +145,12 @@
     <channel lang="id" xmltv_id="France24English.fr" site_id="352">France 24</channel>
     <channel lang="id" xmltv_id="Galaxy.id" site_id="13">Galaxy</channel>
     <channel lang="id" xmltv_id="GalaxyPremium.id" site_id="12">Galaxy Premium</channel>
-    <channel lang="id" xmltv_id="GTV.id" site_id="81">GTV</channel>-->
+    <channel lang="id" xmltv_id="GTV.id" site_id="81">GTV</channel>
     <channel lang="id" xmltv_id="HBOAsia.sg" site_id="7">HBO</channel>
     <channel lang="id" xmltv_id="HBOFamilyAsia.sg" site_id="9">HBO Family</channel>
     <channel lang="id" xmltv_id="HBOHitsAsia.sg" site_id="10">HBO Hits</channel>
     <channel lang="id" xmltv_id="HBOSignatureAsia.sg" site_id="6">HBO Signature</channel>
-   <!-- <channel lang="id" xmltv_id="HGTVAsia.us" site_id="245">HGTV</channel>
+    <channel lang="id" xmltv_id="HGTVAsia.us" site_id="245">HGTV</channel>
     <channel lang="id" xmltv_id="HistoryAsia.us" site_id="206">History</channel>
     <channel lang="id" xmltv_id="HITS.sg" site_id="160">Hits</channel>
     <channel lang="id" xmltv_id="HITSMovies.sg" site_id="11">Hits Movies</channel>
