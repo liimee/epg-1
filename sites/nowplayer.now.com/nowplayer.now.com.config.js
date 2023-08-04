@@ -36,6 +36,7 @@ module.exports = {
               "User-Agent":
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
             },
+            withCredentials: true,
           },
         ).then((r) => r.data).catch(() => {});
 
@@ -52,7 +53,7 @@ module.exports = {
                 ...parsed.subGenre.split("/"),
               ],
             description: parsed.engSynopsis,
-            sub_title: parsed.engProgName,
+            sub_title: parsed.engProgName.replace(/^E\d+\s+-\s*/i, ""),
             rating: {
               value: parsed.certification,
               system: "TELA",
