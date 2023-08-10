@@ -141,5 +141,6 @@
     <channel lang="ms" xmltv_id="WarnerTVAsia.us" site_id="270">Warner TV</channel>
     <channel lang="ms" xmltv_id="WWENetwork.us" site_id="194">WWE Network</channel>
     <channel lang="ms" xmltv_id="ZeeTamil.in" site_id="297">Zee Tamil</channel> -->
+    <channel lang="ms" xmltv_id="CBeebiesAsia.uk" site_id="481">Cbeebies</channel>
   </channels>
 </site>
