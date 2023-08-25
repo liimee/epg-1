@@ -62,6 +62,8 @@
     <channel lang="en" xmltv_id="MUTV.uk" site_id="640">MUTV</channel>-->
     <channel lang="en" xmltv_id="NationalGeographicHongKong.hk" site_id="215">National Geographic</channel>
     <channel lang="en" xmltv_id="NationalGeographicWildHongKong.hk" site_id="216">National Geographic Wild</channel>
+    <channel lang="en" xmltv_id="SPOTV.kr" site_id="670">SPOTV</channel>
+    <channel lang="en" xmltv_id="SPOTV2.kr" site_id="671">SPOTV2</channel>
     <!--<channel lang="en" xmltv_id="NHKWorldJapan.jp" site_id="328">NHK World Japan</channel>
     <channel lang="en" xmltv_id="NHKWorldPremium.jp" site_id="711">NHK World Premium</channel>
     <channel lang="en" xmltv_id="NickelodeonAsia.sg" site_id="444">Nickelodeon</channel>
