@@ -58,8 +58,8 @@ module.exports = {
               ? parsed.engProgName.replace(
                 new RegExp(
                   `^${parsed.engSeriesName || parsed.seriesName}\\s*-?`,
-                  "",
                 ),
+                "",
               ).replace(/^E\d+\s+-\s*/i, "")
               : parsed.engProgName.replace(/^E\d+\s+-\s*/i, ""),
             rating: {
