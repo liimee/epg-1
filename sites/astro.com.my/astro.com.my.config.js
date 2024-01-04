@@ -19,6 +19,10 @@ module.exports = {
       const start = dayjs.utc(item.datetimeInUtc);
       if(channel.xmltv_id == "LifetimeAsia.us") {
 	      start.subtract(10, "m")
+			} else if(channel.xmltv_id == "DiscoveryChannelIndonesia.id") {
+			  start.subtract(3, "m")
+			} else if(channel.xmltv_id == "CrimePlusInvestigationAsia.sg") {
+				start.subtract(5, "m")
 			}
       const duration = parseDuration(item.duration);
       const stop = start.add(duration, "s");
