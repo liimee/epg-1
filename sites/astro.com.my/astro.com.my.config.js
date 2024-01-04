@@ -16,7 +16,7 @@ module.exports = {
     const programs = [];
     const items = parseItems(content, date);
     for (let item of items) {
-      const start = dayjs.utc(item.datetimeInUtc);
+      var start = dayjs.utc(item.datetimeInUtc);
       if(channel.xmltv_id == "LifetimeAsia.us") {
 	      start = start.subtract(10, "m")
 			} else if(channel.xmltv_id == "DiscoveryChannelIndonesia.id") {
