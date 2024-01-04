@@ -12,11 +12,14 @@ module.exports = {
   url: function ({ channel }) {
     return `${API_ENDPOINT}/channel/${channel.site_id}.json`;
   },
-  async parser({ content, date }) {
+  async parser({ content, date, channel }) {
     const programs = [];
     const items = parseItems(content, date);
     for (let item of items) {
       const start = dayjs.utc(item.datetimeInUtc);
+      if(channel.xmltv_id == "LifetimeAsia.us") {
+	      start.subtract(10, "m")
+			}
       const duration = parseDuration(item.duration);
       const stop = start.add(duration, "s");
       const details = await loadProgramDetails(item);
