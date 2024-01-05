@@ -21,7 +21,7 @@ module.exports = {
 	      start = start.subtract(10, "m")
 			} else if(channel.xmltv_id == "DiscoveryChannelIndonesia.id") {
 			  start = start.subtract(3, "m")
-			} else if(channel.xmltv_id == "CrimePlusInvestigationAsia.sg") {
+			} else if(channel.xmltv_id == "CrimePlusInvestigationAsia.sg" || channel.xmltv_id == "DiscoveryAsia.sg") {
 				start = start.subtract(5, "m")
 			}
       const duration = parseDuration(item.duration);
