@@ -18,10 +18,10 @@
     <channel lang="en" xmltv_id="beINSportsMax2.qa" site_id="644">BeIn Sports Max 2</channel>
     <channel lang="en" xmltv_id="beINSportsMax3.qa" site_id="645">BeIn Sports Max 3</channel>
     <channel lang="en" xmltv_id="BloombergTVAsia.hk" site_id="321">Bloomberg TV</channel>
-    <channel lang="en" xmltv_id="BoomerangSoutheastAsia.us" site_id="445">Boomerang</channel>
+    <channel lang="en" xmltv_id="BoomerangSoutheastAsia.us" site_id="445">Boomerang</channel>-->
     <channel lang="en" xmltv_id="CartoonNetworkAsia.sg" site_id="443">Cartoon Network</channel>
     <channel lang="en" xmltv_id="CBeebiesAsia.uk" site_id="447">CBeebies Asia</channel>
-    <channel lang="en" xmltv_id="CCTV1.cn" site_id="541">CCTV 1</channel>
+    <!--<channel lang="en" xmltv_id="CCTV1.cn" site_id="541">CCTV 1</channel>
     <channel lang="en" xmltv_id="CCTV4Asia.cn" site_id="542">CCTV 4 Asia</channel>
     <channel lang="en" xmltv_id="ChannelAdult.hk" site_id="903">Channel Adult</channel>-->
     <channel lang="en" xmltv_id="CinemaxAsia.sg" site_id="113">Cinemax</channel>
@@ -33,9 +33,9 @@
     <channel lang="en" xmltv_id="DaVinciAsia.de" site_id="460">Da Vinci</channel>
     <channel lang="en" xmltv_id="DiscoveryAsia.sg" site_id="208">Discovery Asia</channel>
     <channel lang="en" xmltv_id="DiscoveryChannelSoutheastAsia.sg" site_id="209">Discovery Channel</channel>
-    <!--<channel lang="en" xmltv_id="DiscoveryScienceSoutheastAsia.sg" site_id="211">Discovery Science</channel>
+    <!--<channel lang="en" xmltv_id="DiscoveryScienceSoutheastAsia.sg" site_id="211">Discovery Science</channel>-->
     <channel lang="en" xmltv_id="DMAXSoutheastAsia.sg" site_id="212">DMAX Southeast Asia</channel>
-    <channel lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="440">DreamWorks TV</channel>
+    <!--<channel lang="en" xmltv_id="DreamWorksChannelAsia.us" site_id="440">DreamWorks TV</channel>
     <channel lang="de" xmltv_id="DWDeutsch.de" site_id="765">DW Deutsch</channel>
     <channel lang="en" xmltv_id="DWEnglish.de" site_id="324">DW English</channel>
     <channel lang="en" xmltv_id="EBCNewsAsia.tw" site_id="371">EBC News Asia</channel>
@@ -52,9 +52,9 @@
     <channel lang="en" xmltv_id="HBOFamilyAsia.sg" site_id="112">HBO Family</channel>
     <channel lang="en" xmltv_id="HBOHitsAsia.sg" site_id="111">HBO Hits</channel>
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="114">HBO Signature</channel>
-    <!--<channel lang="en" xmltv_id="HGTVAsia.us" site_id="529">HGTV</channel>
+    <!--<channel lang="en" xmltv_id="HGTVAsia.us" site_id="529">HGTV</channel>-->
     <channel lang="en" xmltv_id="HistoryAsia.us" site_id="223">History</channel>
-    <channel lang="en" xmltv_id="HKSTV.hk" site_id="368">HKS TV</channel>
+    <!--<channel lang="en" xmltv_id="HKSTV.hk" site_id="368">HKS TV</channel>
     <channel lang="en" xmltv_id="IceFire.hk" site_id="901">Ice Fire</channel>
     <channel lang="en" xmltv_id="KBSWorld.kr" site_id="156">KBS World</channel>-->
     <channel lang="en" xmltv_id="LifetimeAsia.us" site_id="525">Lifetime</channel>
@@ -114,9 +114,9 @@
     <channel lang="en" xmltv_id="StarPlus.in" site_id="794">Star Plus Southeast Asia</channel>
     <channel lang="en" xmltv_id="TDMMacauSatellite.mo" site_id="544">Macau Asia Satellite TV</channel>
     <channel lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="725">TFC Asia-Pacific</channel>
-    <channel lang="en" xmltv_id="Thrill.hk" site_id="125">Thrill</channel>
+    <channel lang="en" xmltv_id="Thrill.hk" site_id="125">Thrill</channel>-->
     <channel lang="en" xmltv_id="TLCSoutheastAsia.sg" site_id="213">TLC Southeast Asia</channel>
-    <channel lang="en" xmltv_id="TravelChannelSoutheastAsia.sg" site_id="528">Travel Channel Asia</channel>
+    <!--<channel lang="en" xmltv_id="TravelChannelSoutheastAsia.sg" site_id="528">Travel Channel Asia</channel>
     <channel lang="en" xmltv_id="TV5MondeAsia.fr" site_id="714">TV5Monde Asie</channel>
     <channel lang="en" xmltv_id="TV5MondeStyle.fr" site_id="713">TV5Monde Style HD</channel>
     <channel lang="en" xmltv_id="TVBSAsia.tw" site_id="163">TVBS Asia</channel>
