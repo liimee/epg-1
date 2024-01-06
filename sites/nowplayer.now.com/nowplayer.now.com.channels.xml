@@ -9,8 +9,8 @@
     <channel lang="en" xmltv_id="AsianFoodNetwork.sg" site_id="527">Asian Food Network</channel>
     <!--<channel lang="en" xmltv_id="AstroCricket.my" site_id="674">Astro Cricket</channel>-->
     <channel lang="en" xmltv_id="AXNHongKong.hk" site_id="512">AXN East Asia</channel>
-    <!--<channel lang="en" xmltv_id="BBCEarthAsia.uk" site_id="220">BBC Earth Asia</channel>
-    <channel lang="en" xmltv_id="BBCLifestyleAsia.uk" site_id="502">BBC Lifestyle Asia</channel>
+    <channel lang="en" xmltv_id="BBCEarthAsia.uk" site_id="220">BBC Earth Asia</channel>
+    <!--<channel lang="en" xmltv_id="BBCLifestyleAsia.uk" site_id="502">BBC Lifestyle Asia</channel>
     <channel lang="en" xmltv_id="BBCWorldNewsAsiaPacific.uk" site_id="320">BBC World News</channel>
     <channel lang="en" xmltv_id="beINSports1HongKong.hk" site_id="638">BeIn Sports 1 Hong Kong</channel>
     <channel lang="en" xmltv_id="beINSports2HongKong.hk" site_id="639">BeIn Sports 2 Hong Kong</channel>
@@ -95,9 +95,9 @@
     <channel lang="en" xmltv_id="nowSportsPremierLeague6.hk" site_id="626">Now Sports Premier League 6</channel>
     <channel lang="en" xmltv_id="nowSportsPremierLeagueTV.hk" site_id="620">Now Sports Premier League TV</channel>
     <channel lang="en" xmltv_id="nowSportsPrime.hk" site_id="630">Now Sports Prime</channel>
-    <channel lang="en" xmltv_id="nowVideoExpress.hk" site_id="106">Now Video Express</channel>
+    <channel lang="en" xmltv_id="nowVideoExpress.hk" site_id="106">Now Video Express</channel>-->
     <channel lang="en" xmltv_id="OutdoorChannelInternational.us" site_id="221">Outdoor Channel International</channel>
-    <channel lang="en" xmltv_id="PhoenixChineseChannel.hk" site_id="548">Phoenix Chinese Channel</channel>
+    <!--<channel lang="en" xmltv_id="PhoenixChineseChannel.hk" site_id="548">Phoenix Chinese Channel</channel>
     <channel lang="en" xmltv_id="PhoenixHongKongChannel.hk" site_id="367">Phoenix Hong Kong</channel>
     <channel lang="en" xmltv_id="PhoenixInfoNewsChannel.hk" site_id="366">Phoenix InfoNews Channel</channel>
     <channel lang="en" xmltv_id="ROCKEntertainment.sg" site_id="517">Rock Entertainment</channel>
