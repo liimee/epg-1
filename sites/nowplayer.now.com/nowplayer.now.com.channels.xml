@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site site="nowplayer.now.com">
   <channels>
+    <channel lang="en" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="222">Crime+Investigation</channel>
 <!--     <channel lang="en" xmltv_id="ABCAustralia.au" site_id="561">ABC Australia Asia</channel>
     <channel lang="en" xmltv_id="AlJazeeraEnglish.qa" site_id="325">Aljazeera English</channel>
     <channel lang="en" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="210">Animal Planet</channel>-->
@@ -55,9 +56,9 @@
     <channel lang="en" xmltv_id="HistoryAsia.us" site_id="223">History</channel>
     <channel lang="en" xmltv_id="HKSTV.hk" site_id="368">HKS TV</channel>
     <channel lang="en" xmltv_id="IceFire.hk" site_id="901">Ice Fire</channel>
-    <channel lang="en" xmltv_id="KBSWorld.kr" site_id="156">KBS World</channel>
+    <channel lang="en" xmltv_id="KBSWorld.kr" site_id="156">KBS World</channel>-->
     <channel lang="en" xmltv_id="LifetimeAsia.us" site_id="525">Lifetime</channel>
-    <channel lang="en" xmltv_id="MovieMovie.hk" site_id="116">Movie Movie</channel>
+    <!--<channel lang="en" xmltv_id="MovieMovie.hk" site_id="116">Movie Movie</channel>
     <channel lang="en" xmltv_id="MTVIndia.in" site_id="779">MTV India</channel>
     <channel lang="en" xmltv_id="MUTV.uk" site_id="640">MUTV</channel>-->
     <channel lang="en" xmltv_id="SPOTV.kr" site_id="670">SPOTV</channel>
@@ -129,6 +130,8 @@
     <channel lang="en" xmltv_id="ZeeNews.in" site_id="785">Zee News</channel>
     <channel lang="en" xmltv_id="ZeeTVAsiaPacific.sg" site_id="782">Zee TV Asia Pacific</channel>
     <channel lang="en" xmltv_id="ZhejiangSatelliteTV.cn" site_id="555">Zhejiang Satellite TV</channel>
+
+    
     <channel lang="zh" xmltv_id="ABCAustralia.au" site_id="561">ABC Australia Asia</channel>
     <channel lang="zh" xmltv_id="AlJazeeraEnglish.qa" site_id="325">Aljazeera English</channel>
     <channel lang="zh" xmltv_id="AnimalPlanetSoutheastAsia.sg" site_id="210">Animal Planet</channel>
