@@ -47,7 +47,7 @@ module.exports = {
           if(d.data.total_results > 0) {
             if(parsed.genre != "Sports") {
               let tmres = d.data.results.find(v => (v.name || v.title).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
-              if(!tmres) tmres = d.data.results[0];
+              if(!tmres && d.data.total_results === 1) tmres = d.data.results[0];
               if(!tmres.poster_path && d.data.total_results > 1) {
                 let cloned = d.data.results;
                 cloned.sort((a, b) => b.popularity-a.popularity);
