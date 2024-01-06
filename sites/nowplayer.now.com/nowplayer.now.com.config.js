@@ -43,7 +43,7 @@ module.exports = {
         if (parsed) {
           let tm = parsed.portraitImage &&
               `https://images.now-tv.com/shares/epg_images/${parsed.portraitImage}`;
-          const d = await axios.get(`https://api.themoviedb.org/3/search/${parsed.genre == "Movies" ? 'movie' : 'tv'}?query=${encodeURIComponent(parsed.engSeriesName || parsed.seriesName)}&api_key=${process.env.TMDBKEY}`)
+          const d = await axios.get(`https://api.themoviedb.org/3/search/${parsed.genre == "Movies" || parsed.episodic !== "Y" ? 'movie' : 'tv'}?query=${encodeURIComponent(parsed.engSeriesName || parsed.seriesName)}&api_key=${process.env.TMDBKEY}`)
           if(d.data.total_results > 0) {
             if(parsed.genre != "Sports") {
               let tmres = d.data.results.find(v => (v.name || v.title).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
