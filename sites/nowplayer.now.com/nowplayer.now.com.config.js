@@ -41,6 +41,16 @@ module.exports = {
         ).then((r) => r.data).catch(() => {});
 
         if (parsed) {
+          let tm = parsed.portraitImage &&
+              `https://images.now-tv.com/shares/epg_images/${parsed.portraitImage}`;
+          const d = await axios.get(`https://api.themoviedb.org/3/search/${parsed.genre == "Movies" ? 'movie' : 'tv'}?query=${encodeURIComponent(parsed.engSeriesName || parsed.seriesName)}&api_key=${process.env.TMDBKEY}`)
+          if(d.data.results.length > 0) {
+            if(parsed.genre != "Sports") {
+              const tmres = d.data.results.find(v => v.name.toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
+              if(tmres && tmres.poster_path) tm = 'https://image.tmdb.org/t/p/w500' + tmres.poster_path;
+            }
+          }
+          
           programs.push({
             title: parsed.engSeriesName || parsed.seriesName,
             start: parseStart(item),
@@ -70,8 +80,7 @@ module.exports = {
               /S(\d+)E\d+/i,
             ) ||
               [null, null])[1],
-            icon: parsed.portraitImage &&
-              `https://images.now-tv.com/shares/epg_images/${parsed.portraitImage}`,
+            icon: tm,
             actors: parseList(parsed.actor),
             director: parsed.director,
           });
