@@ -46,6 +46,7 @@ module.exports = {
           const d = await axios.get(`https://api.themoviedb.org/3/search/${parsed.genre == "Movies" ? 'movie' : 'tv'}?query=${encodeURIComponent(parsed.engSeriesName || parsed.seriesName)}&api_key=${process.env.TMDBKEY}`)
           if(d.data.results.length > 0) {
             if(parsed.genre != "Sports") {
+              console.log(`${parsed.engSeriesName || parsed.seriesName} - ${v.name}`)
               const tmres = d.data.results.find(v => v.name.toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
               if(tmres && tmres.poster_path) tm = 'https://image.tmdb.org/t/p/w500' + tmres.poster_path;
             }
