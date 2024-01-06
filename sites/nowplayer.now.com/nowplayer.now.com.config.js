@@ -47,7 +47,7 @@ module.exports = {
           if(d.data.total_results > 0) {
             if(parsed.genre != "Sports") {
               console.log(`${parsed.engSeriesName || parsed.seriesName}`)
-              const tmres = d.data.results.find(v => v.name.toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
+              const tmres = d.data.results.find(v => (v.name || v.title).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
               if(tmres && tmres.poster_path) tm = 'https://image.tmdb.org/t/p/w500' + tmres.poster_path;
             }
           }
