@@ -66,7 +66,7 @@ module.exports = {
                 parsed.genre != "Sports"
               ? ["Movie", parsed.genre, ...(parsed.subGenre || "").split("/")]
               : [
-                parsed.genre.replace("Movies", "Movie"),
+                parsed.genre ? parsed.genre.replace("Movies", "Movie") : null,
                 ...(parsed.subGenre || "").split("/"),
               ],
             description: parsed.engSynopsis,
