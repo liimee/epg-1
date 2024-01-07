@@ -41,9 +41,9 @@
     <channel lang="en" xmltv_id="EBCNewsAsia.tw" site_id="371">EBC News Asia</channel>
     <channel lang="en" xmltv_id="ETTVAsiaNews.tw" site_id="162">ETTV Asia News</channel>
     <channel lang="en" xmltv_id="EuronewsEnglish.fr" site_id="326">EuroNews English</channel>
-    <channel lang="en" xmltv_id="FightSports.us" site_id="642">Fight Sports</channel>
+    <channel lang="en" xmltv_id="FightSports.us" site_id="642">Fight Sports</channel>-->
     <channel lang="en" xmltv_id="FoodNetworkAsia.sg" site_id="526">Food Network</channel>
-    <channel lang="en" xmltv_id="France24English.fr" site_id="327">France 24 English</channel>
+    <!--<channel lang="en" xmltv_id="France24English.fr" site_id="327">France 24 English</channel>
     <channel lang="en" xmltv_id="France24French.fr" site_id="715">France 24 Français</channel>
     <channel lang="en" xmltv_id="GMALifeTV.ph" site_id="721">GMA Life TV</channel>
     <channel lang="en" xmltv_id="GMANewsTVInternational.ph" site_id="722">GMA News TV International</channel>
