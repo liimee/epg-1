@@ -43,6 +43,7 @@ module.exports = {
         if (parsed) {
           let tm = parsed.portraitImage &&
               `https://images.now-tv.com/shares/epg_images/${parsed.portraitImage}`;
+          if((parsed.engSeriesName || parsed.seriesName) !== "TBA") {
           const d = await axios.get(`https://api.themoviedb.org/3/search/${parsed.genre == "Movies" || parsed.episodic !== "Y" ? 'movie' : 'tv'}?query=${encodeURIComponent(parsed.engSeriesName || parsed.seriesName)}&api_key=${process.env.TMDBKEY}`)
           if(d.data.total_results > 0) {
             if(parsed.genre != "Sports") {
@@ -55,6 +56,7 @@ module.exports = {
               }
               if(tmres && tmres.poster_path) tm = 'https://image.tmdb.org/t/p/w500' + tmres.poster_path;
             }
+          }
           }
           
           programs.push({
