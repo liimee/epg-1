@@ -19,7 +19,7 @@ module.exports = {
         Cookie:
           `LANG=${channel.lang}; Expires=null; Path=/; Domain=nowplayer.now.com`,
         "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
       };
     },
     timeout: 60000,
@@ -34,60 +34,64 @@ module.exports = {
           {
             headers: {
               "User-Agent":
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
             },
             withCredentials: true,
           },
-        ).then((r) => r.data).catch(() => {});
+        ).then((r) => r.data).catch(() => { });
 
         if (parsed) {
           let tm = parsed.portraitImage &&
-              `https://images.now-tv.com/shares/epg_images/${parsed.portraitImage}`;
-          if((parsed.engSeriesName || parsed.seriesName) !== "TBA") {
-          const d = await axios.get(`https://api.themoviedb.org/3/search/${parsed.genre == "Movies" || parsed.episodic !== "Y" ? 'movie' : 'tv'}?query=${encodeURIComponent(parsed.engSeriesName || parsed.seriesName)}&api_key=${process.env.TMDBKEY}`)
-          if(d.data.total_results > 0) {
-            if(parsed.genre != "Sports") {
-              let tmres = d.data.results.find(v => (v.name || v.title).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
-              if(!tmres && d.data.total_results === 1) tmres = d.data.results[0];
-              if((tmres && !tmres.poster_path) && d.data.total_results > 1) {
-                let cloned = d.data.results;
-                cloned.sort((a, b) => b.popularity-a.popularity);
-                tmres = cloned[0];
+            `https://images.now-tv.com/shares/epg_images/${parsed.portraitImage}`;
+          if ((parsed.engSeriesName || parsed.seriesName) !== "TBA") {
+            const d = await axios.get(`https://api.themoviedb.org/3/search/${parsed.genre == "Movies" || parsed.episodic !== "Y" ? 'movie' : 'tv'}?query=${encodeURIComponent(parsed.engSeriesName || parsed.seriesName)}&api_key=${process.env.TMDBKEY}`)
+            if (d.data.total_results > 0) {
+              if (parsed.genre != "Sports") {
+                let tmres = d.data.results.find(v => (v.name || v.title).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, '') == (parsed.engSeriesName || parsed.seriesName).toLowerCase().trim().replace(/[^a-z0-9\s]/gi, ''));
+                if (!tmres && d.data.total_results === 1) tmres = d.data.results[0];
+                if ((tmres && !tmres.poster_path) && d.data.total_results > 1) {
+                  let cloned = d.data.results;
+                  cloned.sort((a, b) => b.popularity - a.popularity);
+                  tmres = cloned[0];
+                }
+                if (tmres && tmres.poster_path) tm = 'https://image.tmdb.org/t/p/w500' + tmres.poster_path;
               }
-              if(tmres && tmres.poster_path) tm = 'https://image.tmdb.org/t/p/w500' + tmres.poster_path;
             }
           }
-          }
-          
+
+          const parsedSubTitle = parsed.genre == "Sports"
+            ? parsed.engProgName.replace(
+              new RegExp(
+                `^${parsed.engSeriesName || parsed.seriesName}\\s*-?`,
+              ),
+              "",
+            ).replace(/^E\d+\s+-\s*/i, "")
+            : parsed.engProgName.replace(/^E\d+\s+-\s*/i, "")
+
+          const parsedSeason = ((parsed.episodeName || parsed.progName || "").match(
+            /S(\d+)\s?E\d+/i,
+          ) ||
+            [null, null])[1]
+
           programs.push({
             title: parsed.engSeriesName || parsed.seriesName,
             start: parseStart(item),
             stop: parseStop(item),
-            episode: parsed.episodeNum,
+            episode: parsed.genre === "Sports" && parsed.episodeNum === 0 ? parseInt((parsedSubTitle.match(/Day\s*(\d+)\s+/i) || [])[1] || "0") : parsed.episodeNum,
             categories: (parsed.episodic !== "Y" && parsed.genre != "Movies") &&
-                parsed.genre != "Sports"
+              parsed.genre != "Sports"
               ? ["Movie", parsed.genre, ...(parsed.subGenre || "").split("/")]
               : [
                 parsed.genre ? parsed.genre.replace("Movies", "Movie") : null,
                 ...(parsed.subGenre || "").split("/"),
               ],
             description: parsed.engSynopsis,
-            sub_title: parsed.genre == "Sports"
-              ? parsed.engProgName.replace(
-                new RegExp(
-                  `^${parsed.engSeriesName || parsed.seriesName}\\s*-?`,
-                ),
-                "",
-              ).replace(/^E\d+\s+-\s*/i, "")
-              : parsed.engProgName.replace(/^E\d+\s+-\s*/i, ""),
+            sub_title: parsedSubTitle,
             rating: {
               value: parsed.certification,
               system: "TELA",
             },
-            season: ((parsed.episodeName || parsed.progName || "").match(
-              /S(\d+)E\d+/i,
-            ) ||
-              [null, null])[1],
+            season: parsed.genre === "Sports" && !parsedSeason ? ((parsed.engSeriesName || parsed.seriesName).match(/20\d+/) || [])[0] || parsedSeason : parsedSeason,
             icon: tm,
             actors: parseList(parsed.actor),
             director: parsed.director,
@@ -103,8 +107,7 @@ module.exports = {
   async channels({ lang }) {
     const html = await axios
       .get(
-        `https://api.allorigins.win/raw?url=${
-          encodeURIComponent("https://nowplayer.now.com/channels")
+        `https://api.allorigins.win/raw?url=${encodeURIComponent("https://nowplayer.now.com/channels")
         }`,
         { headers: { Accept: "text/html" } },
       )
