@@ -6,7 +6,7 @@
 <!--     <channel lang="ms" xmltv_id="AdithyaTV.in" site_id="67">Adithya TV</channel>
     <channel lang="ms" xmltv_id="AlJazeeraEnglish.qa" site_id="374">Aljazeera</channel>-->
     <channel lang="ms" xmltv_id="AnimalPlanetMalaysia.my" site_id="377">Animal Planet</channel>
-    <channel lang="ms" xmltv_id="AsianFoodNetwork.sg" site_id="91">Asian Food Network</channel>
+<!--     <channel lang="ms" xmltv_id="AsianFoodNetwork.sg" site_id="91">Asian Food Network</channel> -->
 <!--     <channel lang="ms" xmltv_id="AstroAEC.my" site_id="182">Astro AEC</channel>
     <channel lang="ms" xmltv_id="AstroAOD311.my" site_id="172">Astro AOD 311</channel>
     <channel lang="ms" xmltv_id="AstroAOD352.my" site_id="87">Astro AOD 352</channel>
@@ -47,7 +47,7 @@
     <channel lang="ms" xmltv_id="AstroWarna.my" site_id="272">Astro Warna</channel>
     <channel lang="ms" xmltv_id="AstroXiaoTaiYang.my" site_id="387">Astro Xiao Tai Yang</channel>
     <channel lang="ms" xmltv_id="AwesomeTV.my" site_id="433">Awesome TV</channel>-->
-    <channel lang="ms" xmltv_id="AXNMalaysia.my" site_id="131">AXN</channel>
+<!--     <channel lang="ms" xmltv_id="AXNMalaysia.my" site_id="131">AXN</channel> -->
   <!--  <channel lang="ms" xmltv_id="BBCEarthAsia.uk" site_id="452">BBC Earth</channel>
     <channel lang="ms" xmltv_id="BBCFirstAsia.uk" site_id="458">BBC First</channel>
     <channel lang="ms" xmltv_id="BBCLifestyleAsia.uk" site_id="451">BBC Lifestyle</channel>
@@ -58,24 +58,24 @@
     <channel lang="ms" xmltv_id="BernamaTV.my" site_id="160">Bernama TV</channel>
     <channel lang="ms" xmltv_id="BloombergTVAsia.hk" site_id="422">Bloomberg TV</channel>
     <channel lang="ms" xmltv_id="Boo.my" site_id="251">Boo</channel> -->
-    <channel lang="ms" xmltv_id="BoomerangSoutheastAsia.us" site_id="430">Boomerang</channel>
-    <channel lang="ms" xmltv_id="CartoonNetworkAsia.sg" site_id="371">Cartoon Network HD</channel>
+<!--     <channel lang="ms" xmltv_id="BoomerangSoutheastAsia.us" site_id="430">Boomerang</channel> -->
+<!--     <channel lang="ms" xmltv_id="CartoonNetworkAsia.sg" site_id="371">Cartoon Network HD</channel> -->
 <!--     <channel lang="ms" xmltv_id="CCTV4Asia.cn" site_id="385">CCTV 4</channel>
     <channel lang="ms" xmltv_id="CCM.hk" site_id="187">Celestial Classic Movies</channel>
     <channel lang="ms" xmltv_id="CelestialMoviesMalaysia.my" site_id="134">Celestial Movies</channel>
     <channel lang="ms" xmltv_id="CGTN.cn" site_id="426">CGTN</channel>
     <channel lang="ms" xmltv_id="ChuttiTVMalaysia.my" site_id="51">Chutti TV</channel> -->
-    <channel lang="ms" xmltv_id="CinemaxAsia.sg" site_id="337">Cinemax</channel>
+<!--     <channel lang="ms" xmltv_id="CinemaxAsia.sg" site_id="337">Cinemax</channel> -->
 <!--     <channel lang="ms" xmltv_id="CNA.sg" site_id="295">CNA</channel>
     <channel lang="ms" xmltv_id="CNBCAsia.sg" site_id="423">CNBC Asia-Pacific</channel>
     <channel lang="ms" xmltv_id="CNNInternationalAsiaPacific.hk" site_id="336">CNN</channel>
     <channel lang="ms" xmltv_id="Colors.in" site_id="365">Colors</channel>
     <channel lang="ms" xmltv_id="ColorsTamil.in" site_id="298">Colors Tamil</channel>-->
-    <channel lang="ms" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="369">Crime + Investigation</channel>
+<!--     <channel lang="ms" xmltv_id="CrimePlusInvestigationAsia.sg" site_id="369">Crime + Investigation</channel> -->
     <!--<channel lang="ms" xmltv_id="CTiAsia.tw" site_id="424">CTI TV</channel>-->
-    <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel>
-    <channel lang="ms" xmltv_id="DiscoveryChannelIndonesia.id" site_id="376">Discovery Channel</channel>
-    <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel>
+<!--     <channel lang="ms" xmltv_id="DiscoveryAsia.sg" site_id="136">Discovery Asia</channel> -->
+<!--     <channel lang="ms" xmltv_id="DiscoveryChannelIndonesia.id" site_id="376">Discovery Channel</channel> -->
+<!--     <channel lang="ms" xmltv_id="DMAXSoutheastAsia.sg" site_id="367">DMAX</channel> -->
     <!--<channel lang="ms" xmltv_id="DWEnglish.de" site_id="287">DW English</channel>
     <channel lang="ms" xmltv_id="eGGNetwork.my" site_id="206">Egg Network</channel>
     <channel lang="ms" xmltv_id="EurosportAsia.fr" site_id="339">Eurosport</channel>
@@ -87,18 +87,18 @@
     <channel lang="ms" xmltv_id="GoShopMalay111.my" site_id="403">Go Shop Malay 111</channel>
     <channel lang="ms" xmltv_id="GoShopMalay118.my" site_id="192">Go Shop Malay 118</channel>
     <channel lang="ms" xmltv_id="GoShopMalay120.my" site_id="294">Go Shop Malay 120</channel> -->
-    <channel lang="ms" xmltv_id="HBOAsia.sg" site_id="143">HBO</channel>
-    <channel lang="ms" xmltv_id="HBOFamilyAsia.sg" site_id="450">HBO Family</channel>
-    <channel lang="ms" xmltv_id="HBOHitsAsia.sg" site_id="449">HBO Hits</channel>
+<!--     <channel lang="ms" xmltv_id="HBOAsia.sg" site_id="143">HBO</channel> -->
+<!--     <channel lang="ms" xmltv_id="HBOFamilyAsia.sg" site_id="450">HBO Family</channel> -->
+<!--     <channel lang="ms" xmltv_id="HBOHitsAsia.sg" site_id="449">HBO Hits</channel> -->
 <!--     <channel lang="ms" xmltv_id="HGTVAsia.us" site_id="198">HGTV</channel> -->
-     <channel lang="ms" xmltv_id="HistoryAsia.us" site_id="144">History</channel>
+<!--      <channel lang="ms" xmltv_id="HistoryAsia.us" site_id="144">History</channel> -->
     <channel lang="ms" xmltv_id="HITS.sg" site_id="179">Hits</channel>
     <channel lang="ms" xmltv_id="HITSMovies.sg" site_id="391">Hits Movies</channel>
     <!--<channel lang="ms" xmltv_id="iQIYI.cn" site_id="355">Iqiyi</channel>
     <channel lang="ms" xmltv_id="KBSWorld.kr" site_id="161">KBS World</channel>
     <channel lang="ms" xmltv_id="KIX.hk" site_id="157">Kix</channel>
     <channel lang="ms" xmltv_id="KPlus.sg" site_id="266">K+</channel>-->
-    <channel lang="ms" xmltv_id="LifetimeAsia.us" site_id="447">Lifetime</channel>
+<!--     <channel lang="ms" xmltv_id="LifetimeAsia.us" site_id="447">Lifetime</channel> -->
     <!--<channel lang="ms" xmltv_id="MoonbugKids.uk" site_id="465">Moonbug Kids</channel>
     <channel lang="ms" xmltv_id="MTVAsia.sg" site_id="420">MTV</channel>
     <channel lang="ms" xmltv_id="NatGeoPeopleMalaysia.my" site_id="199">Nat Geo People</channel>
@@ -120,13 +120,13 @@
     <channel lang="ms" xmltv_id="Okey.my" site_id="97">RTM TV Okey</channel>
     <channel lang="ms" xmltv_id="ShowcaseMovies.my" site_id="454">Showcase Movies</channel>
     <channel lang="ms" xmltv_id="SkyNews.uk" site_id="155">Sky News UK</channel>-->
-    <channel lang="ms" xmltv_id="SPOTV.kr" site_id="456">SPOTV</channel>
-    <channel lang="ms" xmltv_id="SPOTV2.kr" site_id="474">SPOTV 2</channel>
+<!--     <channel lang="ms" xmltv_id="SPOTV.kr" site_id="456">SPOTV</channel> -->
+<!--     <channel lang="ms" xmltv_id="SPOTV2.kr" site_id="474">SPOTV 2</channel> -->
    <!-- <channel lang="ms" xmltv_id="StarVijay.in" site_id="357">Star Vijay</channel>
     <channel lang="ms" xmltv_id="SunMusic.in" site_id="417">Sun Music</channel>
     <channel lang="ms" xmltv_id="SunTVMalaysia.my" site_id="358">Sun TV</channel>
     <channel lang="ms" xmltv_id="TADAA.my" site_id="432">Ta-Daa!</channel>-->
-    <channel lang="ms" xmltv_id="TLCSoutheastAsia.sg" site_id="338">TLC</channel>
+<!--     <channel lang="ms" xmltv_id="TLCSoutheastAsia.sg" site_id="338">TLC</channel> -->
     <!--<channel lang="ms" xmltv_id="TV3.my" site_id="106">TV 3</channel>
     <channel lang="ms" xmltv_id="TV9.my" site_id="48">TV 9</channel>
     <channel lang="ms" xmltv_id="TVAlhijrah.my" site_id="149">TV Alhijrah</channel>
@@ -141,6 +141,6 @@
     <channel lang="ms" xmltv_id="WarnerTVAsia.us" site_id="270">Warner TV</channel>
     <channel lang="ms" xmltv_id="WWENetwork.us" site_id="194">WWE Network</channel>
     <channel lang="ms" xmltv_id="ZeeTamil.in" site_id="297">Zee Tamil</channel> -->
-    <channel lang="ms" xmltv_id="CBeebiesAsia.uk" site_id="481">Cbeebies</channel>
+<!--     <channel lang="ms" xmltv_id="CBeebiesAsia.uk" site_id="481">Cbeebies</channel> -->
   </channels>
 </site>
