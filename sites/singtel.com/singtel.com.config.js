@@ -19,7 +19,7 @@ module.exports = {
     return `https://www.singtel.com/etc/singtel/public/tv/epg-parsed-data/${date.format('DDMMYYYY')}.json`
   },
   async parser({ content, channel }) {
-    const seasonRegex = / S(\d+)$/
+    const seasonRegex = /(?: |\()S(\d+)\)?$/
 
     let programs = []
     const items = parseItems(content, channel)
