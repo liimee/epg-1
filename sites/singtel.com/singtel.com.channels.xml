@@ -134,9 +134,9 @@
     <channel lang="en" xmltv_id="SunMusic.in" site_id="5627">Sun Music</channel>
     <channel lang="en" xmltv_id="SunNews.in" site_id="5636">Sun News</channel>
     <channel lang="en" xmltv_id="SunTV.in" site_id="5622">Sun TV</channel>
-    <channel lang="ms" xmltv_id="Suria.sg" site_id="5004">Suria</channel>
+    <channel lang="ms" xmltv_id="Suria.sg" site_id="5004">Suria</channel>-->
     <channel lang="en" xmltv_id="TechStorm.sg" site_id="5260">TechStorm</channel>
-    <channel lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="5693">The Filipino Channel</channel>
+    <!--<channel lang="en" xmltv_id="TheFilipinoChannelAsia.us" site_id="5693">The Filipino Channel</channel>
     <channel lang="en" xmltv_id="TimesNow.in" site_id="5676">Times Now</channel>
     <channel lang="en" xmltv_id="???" site_id="5254">TLC</channel>
     <channel lang="en" xmltv_id="TraceSportStars.fr" site_id="5257">TRACE Sports Stars HD</channel>
