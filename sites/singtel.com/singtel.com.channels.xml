@@ -77,9 +77,9 @@
     <channel lang="en" xmltv_id="HBOHitsAsia.sg" site_id="6423">HBO Hits</channel>
     <channel lang="en" xmltv_id="HBOSignatureAsia.sg" site_id="6421">HBO Signature</channel>
     <channel lang="en" xmltv_id="???" site_id="5250">HGTV</channel>
-    <channel lang="en" xmltv_id="???" site_id="5209">HISTORY</channel>
+    <channel lang="en" xmltv_id="???" site_id="5209">HISTORY</channel>-->
     <channel lang="en" xmltv_id="HITS.sg" site_id="5326">HITS</channel>
-    <channel lang="en" xmltv_id="HITSMovies.sg" site_id="6301">HITS Movies HD </channel>
+    <!--<channel lang="en" xmltv_id="HITSMovies.sg" site_id="6301">HITS Movies HD </channel>
     <channel lang="en" xmltv_id="???" site_id="5169">HLN</channel>
     <channel lang="en" xmltv_id="HubPremier1.sg" site_id="4102">Hub Premier 1</channel>
     <channel lang="en" xmltv_id="HubPremier2.sg" site_id="4103">Hub Premier 2</channel>
