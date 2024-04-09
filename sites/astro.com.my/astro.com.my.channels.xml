@@ -137,9 +137,9 @@
     <channel lang="ms" xmltv_id="TVBXingHe.hk" site_id="383">TVB Xing He</channel>
     <channel lang="ms" xmltv_id="tvNAsia.hk" site_id="190">TVN HD</channel>
     <channel lang="ms" xmltv_id="tvNMoviesAsia.hk" site_id="274">TVN Movies</channel>
-    <channel lang="ms" xmltv_id="TVS.my" site_id="429">TVS</channel>
+    <channel lang="ms" xmltv_id="TVS.my" site_id="429">TVS</channel>-->
     <channel lang="ms" xmltv_id="WarnerTVAsia.us" site_id="270">Warner TV</channel>
-    <channel lang="ms" xmltv_id="WWENetwork.us" site_id="194">WWE Network</channel>
+    <!--<channel lang="ms" xmltv_id="WWENetwork.us" site_id="194">WWE Network</channel>
     <channel lang="ms" xmltv_id="ZeeTamil.in" site_id="297">Zee Tamil</channel> -->
 <!--     <channel lang="ms" xmltv_id="CBeebiesAsia.uk" site_id="481">Cbeebies</channel> -->
   </channels>
