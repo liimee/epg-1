@@ -54,7 +54,13 @@ module.exports = {
         stop,
         season: season ? parseInt(season) : null,
         episode: parseInt(item.program.programValues.find(v => v.name == 'MSEPG_Syndicated_Episode_Number').description),
-        icon: tm
+        icon: tm,
+        video: {
+          present: 'yes',
+          colour: 'yes',
+          aspect: '16:9',
+          quality: 'HDTV'
+        },
       })
     }
 
